@@ -7,6 +7,11 @@ body {
 h1 {
 	text-align:center;
 	padding-bottom:2%;
+	font-variant:small-caps;
+}
+
+h2 {
+	font-variant:small-caps;
 }
 
 img {
@@ -15,6 +20,7 @@ img {
 	padding-right:2%;
 }
 
-.left_align_in_center{
-	/*padding-left:2%;*/
+.angry{
+	font-weight:bolder;
+	color:red;
 }
