@@ -14,12 +14,26 @@ h2 {
 	font-variant:small-caps;
 }
 
-img {
-	float:left;
-	padding-right:2%;
+#container {
+	text-align:center;
 }
 
-.angry{
+#lblock {
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	padding:2%;
+}
+
+#rblock {
+	text-align:left;
+	vertical-align:top;
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.angry {
 	font-weight:bolder;
 	color:red;
 }
