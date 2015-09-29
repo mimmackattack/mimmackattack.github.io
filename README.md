@@ -1,7 +1,7 @@
 # mimmackattack.github.io
 
 Currently all of the individual html pages load and interact properly with
-the css stylesheet. Still have not officially uploaded to cs account yet, though.
+the css stylesheet. Everything is uploaded to the CS account and loads properly on the web browser, but the photo on the index page loads very slowly.
 
 I spent approximately 5 hours on the project.
 
