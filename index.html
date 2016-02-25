@@ -3,23 +3,65 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/index.css">
     <title>Kayden Mimmack</title>
 </head>
 <body>
     <div id="bgimg">
         <div class="inner">
-            <h1>Kayden Mimmack</h1>
+            <h1>Title Here</h1>
             <div id="buttonList">
-                <a href="info.html"><button>Info</button></a>
+                <a href=""><div class="button">Info</div></a>
                 <div class="divider"></div>
-                <a href="design.html"><button>Graphic Design</button></a>
+                <a href=""><div class="button">Graphic Design</div></a>
                 <div class="divider"></div>
-                <a href="projects.html"><button>Web Design</button></a>
+                <a href=""><div class="button">Web Design</div></a>
             </div>
-
         </div>
     </div>
+
+    <div class="container-fluid">
+        <div class="row">
+             <!-- column container for sidebar -->
+            <div class="col-sm-3" style="min-height:100vh;">
+                <!--sidebar fades in and sticks to left side -->
+                <div class="col-sm-3" id="sidebar"
+                data-75p="opacity:0;transform:translate(-100%,0%);"
+                data-100p="opacity:1;transform:translate(0%,0%);">
+                    <div id="sidebar-content">
+                        <div id="circle"></div>
+                        <br>
+                        <p>short description here<br>hello</p>
+                    </div>
+                </div>
+            </div>
+            <!-- right-aligned all content -->
+            <div class="col-sm-9" id="all-content">
+                <div id="graphics"
+                data-50p="opacity:0;"
+                data-100p="opacity:1;">
+                    <h2>Graphic Design</h2>
+                    <img class="graphic" alt="" src="img/anatomy.jpg"></img>
+                    <img class="graphic" alt="" src="img/faceless.jpg"></img>
+
+                    <img class="graphic" alt="" src="img/safezone.png"></img>
+                    <img class="graphic vertical" alt="" src="img/jpn.png"></img>
+                    <img class="graphic" alt="" src="img/salesman.png"></img>
+                    <img class="graphic" alt="" src="img/plants.png"></img>
+                    <img class="graphic vertical" alt="" src="img/isce.png"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/skrollr.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+        skrollr.init();
+        $("body").fadeIn("slow");
+    </script>
 </body>
 </html>

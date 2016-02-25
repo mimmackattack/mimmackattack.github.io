@@ -1,5 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Squada+One);
 
+.skrollable {
+	position:fixed;
+	z-index:100;
+}
+.skrollr-mobile .skrollable {
+	position:absolute;
+}
+.skrollable .skrollable {
+	position:absolute;
+}
+.skrollable .skrollable .skrollable {
+	position:static;
+}
+
 html, body {
     margin:0;
     width:100%;
@@ -7,14 +21,12 @@ html, body {
 }
 
 body {
-    color:#ffffff;
-    text-align:center;
+    display:none;
 }
 
 #bgimg {
     width:100%;
-    height:100%;
-    margin:0;
+    height:100vh;
     background:
         linear-gradient(
             rgba(6, 250, 133, 0.25),
@@ -25,9 +37,47 @@ body {
     -moz-background-size:cover;
     -o-background-size:cover;
     -webkit-background-size:cover;
+
     display:flex;
     justify-content:center;
     align-items:center;
+
+    color:#ffffff;
+    text-align:center;
+}
+
+#graphics {
+    position:relative;
+}
+
+#sidebar {
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#sidebar-content {
+    text-align:center;
+}
+
+#circle {
+    border-radius: 50%;
+    width:15em;
+    max-width:100%;
+    height:15em;
+    max-height:100%;
+    background-color:black;
+}
+
+#all-content {
+    margin-top:100px;
+    min-height:200vh;
+    text-align:center;
 }
 
 h1 {
@@ -39,8 +89,29 @@ h1 {
     text-transform:uppercase;
 }
 
+h2 {
+    font-family:'Squada One';
+    font-weight:400;
+    font-size:5em;
+    text-transform:uppercase;
+}
+
 a {
-    text-decoration:none;
+    text-decoration:none !important;
+}
+
+img.graphic {
+    position:relative;
+    width:75%;
+    height:auto;
+    margin-top:5em;
+    margin-bottom:5em;
+}
+
+img.graphic.vertical {
+    max-height:95vh;
+    width:auto;
+    max-width:75%;
 }
 
 #buttonList {
@@ -50,7 +121,7 @@ a {
     align-items:center;
 }
 
-button {
+.button {
     padding:0.2em;
     width:7em;
     font-family:'Squada One';
@@ -62,7 +133,7 @@ button {
     border: solid 0.1em #ffffff;
 }
 
-button:hover {
+.button:hover {
     cursor:pointer;
     transition:0.3s;
     box-shadow: 0 0 0 0.1em #ffffff;
@@ -72,6 +143,13 @@ button:hover {
     width:2em;
     height:auto;
     display:inline-block;
+}
+
+::selection {
+    background: #5b5b5b;
+}
+::-moz-selection {
+    background: #5b5b5b;
 }
 
 @media (max-width:800px) {
