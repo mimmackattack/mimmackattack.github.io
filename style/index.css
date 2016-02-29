@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Squada+One);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 
 .skrollable {
 	position:fixed;
@@ -18,6 +20,14 @@ html, body {
     margin:0;
     width:100%;
     height:100%;
+	background:
+	linear-gradient(
+		rgba(255, 255, 255, 0.7),
+		rgba(255, 255, 255, 0.7)),
+		url(../img/bg.png);
+	background-attachment: fixed;
+	font-family:'Roboto';
+	font-weight:300;
 }
 
 body {
@@ -28,9 +38,9 @@ body {
     width:100%;
     height:100vh;
     background:
-        linear-gradient(
-            rgba(6, 250, 133, 0.25),
-            rgba(172, 250, 6, 0.25)),
+		linear-gradient(
+            rgba(245, 206, 88, 0.5),
+            rgba(0, 0, 0, 0.5)),
         url('../img/beach.jpg')
         center center no-repeat;
     background-size:cover;
@@ -51,6 +61,10 @@ body {
     position:relative;
 }
 
+#web {
+    position:relative;
+}
+
 #sidebar {
     height:100vh;
     position:fixed;
@@ -65,14 +79,20 @@ body {
 
 #sidebar-content {
     max-width:100%;
-    text-align:center;
+	display:flex;
+    justify-content:center;
+    align-items:center;
+	flex-wrap:wrap;
+
+	text-align:center;
 }
 
 #circle {
     border-radius: 50%;
     width:15em;
+	height:15em; /*
     max-width:100%;
-    padding-top:100%;
+    padding-top:100%; */
 
     background:url("../img/me.jpg") center center no-repeat;;
     background-size:cover;
@@ -93,6 +113,7 @@ h1 {
     font-family:'Squada One';
     font-weight:400;
     font-size:10em;
+	font-size:14vw;
     text-transform:uppercase;
 }
 
@@ -103,8 +124,16 @@ h2 {
     text-transform:uppercase;
 }
 
+h3 {
+    font-family:'Squada One';
+    font-weight:400;
+	font-size:1.5em;
+}
+
 a {
     text-decoration:none !important;
+	color:inherit;
+	text-align:center;
 }
 
 img.graphic {
@@ -121,7 +150,7 @@ img.graphic.vertical {
     max-width:75%;
 }
 
-#buttonList {
+.buttonList {
     height:10em;
     display:flex;
     justify-content:center;
@@ -143,10 +172,36 @@ img.graphic.vertical {
     border: solid 0.1em #ffffff;
 }
 
+.buttonDark {
+    margin:0;
+    padding:0.2em;
+    width:7em;
+    font-family:'Squada One';
+    font-weight:400;
+    text-transform:uppercase;
+    font-size:2em;
+    color:#000000;
+    background:rgba(0,0,0,0);
+    border: solid 0.1em #000000;
+}
+
 .button:hover {
     cursor:pointer;
     transition:0.3s;
     box-shadow: 0 0 0 0.1em #ffffff;
+}
+
+.sideBttn {
+	text-decoration:none;
+	border-bottom: 0.0625em solid #ff684d;
+	box-shadow: inset 0 -0.125em 0 #ff684d;
+	color: inherit;
+	transition: background 0.1s cubic-bezier(.33,.66,.66,1);
+}
+
+.sideBttn:hover {
+	background:#ff684d;
+	color:inherit;
 }
 
 .divider {
@@ -157,9 +212,11 @@ img.graphic.vertical {
 
 ::selection {
     background: #5b5b5b;
+	color:white;
 }
 ::-moz-selection {
     background: #5b5b5b;
+	color:white;
 }
 
 /* @media (max-width:800px) {

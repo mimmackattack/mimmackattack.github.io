@@ -11,14 +11,15 @@
 <body>
     <div id="bgimg">
         <div class="inner">
-            <h1>Title Here</h1>
-            <div id="buttonList">
-                <a href=""><div class="button">Info</div></a>
+            <h1>Kayden Mimmack</h1>
+            <h3>UI / UX Design and Front-End Web Development</h3>
+            <!--<div class="buttonList">
+                <a href="#sidebar"><div class="button">Info</div></a>
                 <div class="divider"></div>
-                <a href=""><div class="button">Graphic Design</div></a>
+                <a href="#graphics"><div class="button">Graphic Design</div></a>
                 <div class="divider"></div>
-                <a href=""><div class="button">Web Design</div></a>
-            </div>
+                <a href="#web"><div class="button">Web Design</div></a>
+            </div>-->
         </div>
     </div>
 
@@ -32,8 +33,22 @@
                 data-100p="opacity:1;transform:translate(0%,0%);">
                     <div id="sidebar-content">
                         <div id="circle"></div>
-                        <br>
-                        <p>short description here<br>hello</p>
+                        <p style="max-width:85%;">
+                            <br>
+                            Kayden Mimmack is a second-year Tufts University student seeking his degree in
+                            Mathematics and Computer Science. He is currently a designer and multimedia director
+                            for the student-run Tufts Observer
+                            magazine.
+                            <br>
+                            <br>
+                            Contact at:<br>Kayden.Mimmack@tufts.edu
+                            <br>
+                            <br>
+                            <a class="sideBttn" href="#graphics">Graphic Design</a>
+                            <br>
+                            <br>
+                            <a class="sideBttn" href="#web">Web Development</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -43,14 +58,44 @@
                 data-50p="opacity:0;"
                 data-100p="opacity:1;">
                     <h2>Graphic Design</h2>
-                    <img class="graphic" alt="" src="img/anatomy.jpg"></img>
-                    <img class="graphic" alt="" src="img/faceless.jpg"></img>
+                    <div id="test" style="display:none;position:absolute;"></div>
+                    <a href="img/anatomy.jpg" target="_blank">
+                        <img class="graphic" alt="" src="img/anatomy.jpg"></img>
+                    </a>
+                    <a href="img/faceless.jpg" target="_blank">
+                        <img class="graphic" alt="" src="img/faceless.jpg"></img>
+                    </a>
 
-                    <img class="graphic" alt="" src="img/safezone.png"></img>
-                    <img class="graphic vertical" alt="" src="img/jpn.png"></img>
-                    <img class="graphic" alt="" src="img/salesman.png"></img>
-                    <img class="graphic" alt="" src="img/plants.png"></img>
-                    <img class="graphic vertical" alt="" src="img/isce.png"></img>
+                    <a href="img/safezone.png" target="_blank">
+                        <img class="graphic" alt="" src="img/safezone.png"></img>
+                    </a>
+                    <a href="img/jpn.png" target="_blank">
+                        <img class="graphic vertical" alt="" src="img/jpn.png"></img>
+                    </a>
+                    <a href="img/salesman.png" target="_blank">
+                        <img class="graphic" alt="" src="img/salesman.png"></img>
+                    </a>
+                    <a href="img/plants.png" target="_blank">
+                        <img class="graphic" alt="" src="img/plants.png"></img>
+                    </a>
+                    <a href="img/isce.png" target="_blank">
+                        <img class="graphic vertical" alt="" src="img/isce.png"></img>
+                    </a>
+                </div>
+                <div id="web"
+                data-50p="opacity:0;"
+                data-100p="opacity:1;">
+                    <hr><br><br>
+                    <h2>Web Development</h2>
+                    <a href="img/quiz.jpg" target="_blank">
+                        <img class="graphic" alt="" src="img/quiz.jpg"></img>
+                    </a>
+                    <a href="img/fetch.jpg" target="_blank">
+                        <img class="graphic" alt="" src="img/fetch.jpg"></img>
+                    </a>
+                    <a href="img/observer.jpg" target="_blank">
+                        <img class="graphic" alt="" src="img/observer.jpg"></img>
+                    </a>
                 </div>
             </div>
         </div>
@@ -62,6 +107,19 @@
     <script>
         skrollr.init();
         $("body").fadeIn("slow");
+/*
+
+        $(window).on("scroll", function() {
+            var scrollPosition = scrollY || pageYOffset;
+            var tst = $("#test").position().top - scrollPosition;
+            console.log("Test: " + $("#test").position().top + " Scrollpos: " + scrollPosition
+        + " Diff: " + tst);*/
+            //console.log($("#test").position().top + " window: " + $(window).height());
+            /*if (scrollPosition > $("#graphics").position().top - (2 * $(window).height())) {
+                console.log("run code here");
+            }
+        });*/
+
     </script>
 </body>
 </html>
