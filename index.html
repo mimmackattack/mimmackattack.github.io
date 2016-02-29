@@ -28,9 +28,7 @@
              <!-- column container for sidebar -->
             <div class="col-sm-3" style="min-height:100vh;">
                 <!--sidebar fades in and sticks to left side -->
-                <div class="col-sm-3" id="sidebar"
-                data-75p="opacity:0;transform:translate(-100%,0%);"
-                data-100p="opacity:1;transform:translate(0%,0%);">
+                <div class="col-sm-3" id="sidebar">
                     <div id="sidebar-content">
                         <div id="circle"></div>
                         <p style="max-width:85%;">
@@ -54,10 +52,8 @@
                 </div>
             </div>
             <!-- right-aligned all content -->
-            <div class="col-sm-9" id="all-content" id="skrollr-body">
-                <div id="graphics"
-                data-50p="opacity:0;"
-                data-100p="opacity:1;">
+            <div class="col-sm-9" id="all-content">
+                <div id="graphics">
                     <h2>Graphic Design</h2>
                     <div id="test" style="display:none;position:absolute;"></div>
                     <a href="img/anatomy.jpg" target="_blank">
@@ -83,9 +79,7 @@
                         <img class="graphic vertical" alt="" src="img/isce.png"></img>
                     </a>
                 </div>
-                <div id="web"
-                data-50p="opacity:0;"
-                data-100p="opacity:1;">
+                <div id="web">
                     <hr><br><br>
                     <h2>Web Development</h2>
                     <a href="img/quiz.jpg" target="_blank">
@@ -103,10 +97,8 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="js/skrollr.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script>
-        skrollr.init();
         $("body").fadeIn("slow");
 
         $(function() {
@@ -122,6 +114,16 @@
               }
             }
           });
+        });
+
+
+
+        $(window).scroll(function() {
+        if ($(this).scrollTop()> $( window ).height()) {
+            $('#sidebar').fadeIn();
+        } else {
+            $('#sidebar').fadeOut();
+        }
         });
 /*
 
