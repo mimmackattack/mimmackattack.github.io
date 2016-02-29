@@ -130,6 +130,7 @@ img.graphic {
 img.graphic.vertical {
     max-height:95vh;
     width:auto;
+	max-width:100%;
 }
 
 .description {
@@ -164,11 +165,21 @@ img.graphic.vertical {
 	color:white;
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width:768px) {
     #sidebar {
         height:100vh;
         position:relative;
         top:0;
         left:0;
     }
+	#graphics,
+	#web {
+		width:98%;
+	}
+}
+
+@media only screen and (max-width:500px) {
+	#all-content p {
+		text-align:left;
+	}
 }
