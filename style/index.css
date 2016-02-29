@@ -207,7 +207,6 @@ img.graphic.vertical {
 .divider {
     width:2em;
     height:auto;
-    //display:inline-block;
 }
 
 ::selection {
