@@ -42,14 +42,6 @@ body {
     text-align:center;
 }
 
-#graphics,
-#web {
-    position:relative;
-	width:75%;
-	margin:auto;
-	margin-bottom:5em;
-}
-
 #sidebar {
     height:100vh;
     position:fixed;
@@ -84,10 +76,22 @@ body {
     -webkit-background-size:cover;
 }
 
+#bio {
+	max-width:85%;
+}
+
 #all-content {
     margin-top:100px;
     min-height:200vh;
     text-align:center;
+}
+
+#graphics,
+#web {
+    position:relative;
+	width:75%;
+	margin:auto;
+	margin-bottom:5em;
 }
 
 h1 {
@@ -151,11 +155,6 @@ img.graphic.vertical {
 	color:inherit;
 }
 
-.divider {
-    width:2em;
-    height:auto;
-}
-
 ::selection {
     background: #5b5b5b;
 	color:white;
@@ -165,10 +164,11 @@ img.graphic.vertical {
 	color:white;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:767px) {
     #sidebar {
-        height:100vh;
+        height:100%;
         position:relative;
+		margin-top:1em;
         top:0;
         left:0;
     }

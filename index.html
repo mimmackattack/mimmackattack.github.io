@@ -24,11 +24,11 @@
                 <div class="col-sm-3" id="sidebar">
                     <div id="sidebar-content">
                         <div id="circle"></div>
-                        <p style="max-width:85%;">
-                            <br>
+                        <p id="bio">
+                            <br><span id="biop">
                             Kayden Mimmack is a second-year Tufts University student majoring in
                             Math and Computer Science. He is a designer and multimedia director
-                            for the student-run Tufts Observer magazine.
+                            for the student-run Tufts Observer magazine.</span>
                             <br>
                             <br>
                             <a class="sideBttn" href="#graphics">Design Work</a>
@@ -195,16 +195,16 @@
                 }
             });
         });
-        if ($(window).width() > 768) {
-            $("body").fadeIn("slow");
-        }
-        else {
-            $("body").show();
+
+        $("body").fadeIn("slow");
+        $('#sidebar').hide();
+        if ($(window).width() < 768) {
+            $('#sidebar').show();
         }
 
         /*fade in sidebar on scroll */
         $(window).scroll(function() {
-            if ($(window).width() > 768) {
+            if ($(window).width() >= 768) {
                 if ($(this).scrollTop() > $(window).height()) {
                     $('#sidebar').fadeIn();
                 } else {
