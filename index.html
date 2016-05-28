@@ -1,220 +1,75 @@
-<!DOCTYPE HTML>
-
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/index.css">
-    <title>Kayden Mimmack</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Kayden Mimmack</title>
+	<meta name="description" content="Brief web portfolio">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	
+	<script src="js/modernizr-2.8.3.min.js"></script>
 </head>
+
 <body>
-    <div id="bgimg">
-        <div class="inner">
-            <h1>Kayden Mimmack</h1>
-            <h3>UI / UX Design and Front-End Web Development</h3>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row">
-             <!-- column container for sidebar -->
-            <div class="col-sm-3" style="min-height:100vh;">
-                <!--sidebar fades in and sticks to left side -->
-                <div class="col-sm-3" id="sidebar">
-                    <div id="sidebar-content">
-                        <div id="circle"></div>
-                        <p id="bio">
-                            <br><span id="biop">
-                            Kayden Mimmack is a second-year Tufts University student majoring in
-                            Math and Computer Science. He is a designer and multimedia director
-                            for the student-run Tufts Observer magazine.</span>
-                            <br>
-                            <br>
-                            <a class="sideBttn" href="#graphics">Design Work</a>
-                            <br>
-                            <br>
-                            <a class="sideBttn" href="#web">Web Work</a>
-                            <br>
-                            <br>
-                            Contact at:
-                            <br>
-                            <a href="mailto:Kayden.Mimmack@tufts.edu">Kayden.Mimmack@tufts.edu</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- right-aligned all content -->
-            <div class="col-sm-9" id="all-content">
-                <div id="graphics">
-                    <h2>Graphic Design</h2>
-                    <br>
-                    <a href="img/anatomy.jpg" target="_blank">
-                        <img class="graphic" alt="Magazine Spread 1" src="img/anatomy.jpg"></img>
-                    </a>
-                    <p class="description">
-                        Spread designed for the Tufts Observer created using Adobe
-                        InDesign. Art of person on lefthand page was created by Rachel
-                        Cunningham, while graphics on righthand page and title design
-                        were created by myself.
-                    </p>
-
-                    <a href="img/faceless.jpg" target="_blank">
-                        <img class="graphic" alt="Magazine Spread 2" src="img/faceless.jpg"></img>
-                    </a>
-                    <p class="description">
-                        Spread designed for the Tufts Observer created using Adobe
-                        InDesign. Art provided by Annie Roome.
-                    </p>
-
-                    <a href="img/safezone.png" target="_blank">
-                        <img class="graphic" alt="" src="img/safezone.png"></img>
-                    </a>
-                    <p class="description">
-                        Promotional flyer created for Chapel Hill High School's
-                        Queer-Straight Alliance using GIMP.
-                        <br>
-                        Example highlights color usage and computer graphics creation.
-                    </p>
-
-                    <a href="img/jpn.png" target="_blank">
-                        <img class="graphic vertical" alt="" src="img/jpn.png"></img>
-                    </a>
-                    <p class="description">
-                        Promotional flyer created for Chapel Hill High School's
-                        Japanese Tutoring Club using GIMP.
-                        <br>
-                        Example highlights typography usage and imagery-oriented design.
-                    </p>
-
-                    <a href="img/salesman.png" target="_blank">
-                        <img class="graphic" alt="" src="img/salesman.png"></img>
-                    </a>
-                    <p class="description">
-                        Promotional image for musical event created using GIMP.
-                        Example highlights computer graphics creation.
-                    </p>
-
-                    <a href="img/plants.png" target="_blank">
-                        <img class="graphic" alt="" src="img/plants.png"></img>
-                    </a>
-                    <p class="description">
-                        Promotional image for house show.
-                        Space for location intentionally left blank to be filled
-                        in at later date by client. Illustrated by hand and colored
-                        using GIMP.
-                    </p>
-
-                    <a href="img/isce.png" target="_blank">
-                        <img class="graphic vertical" alt="" src="img/isce.png"></img>
-                    </a>
-                    <p class="description">
-                        Logo for Tufts University's Summer English Language Program's
-                        collaboration with Taipei's Wego High School and ISCE.
-                        Design featured on program shirts and memorial plaque.
-                        Created using Adobe Photoshop and Illustrator.
-                    </p>
-
-                </div>
-                <div id="web">
-                    <hr><br><br>
-                    <h2 id="webTitle">Web Development</h2>
-                    <a href="img/observer.jpg" target="_blank">
-                        <img class="graphic" alt="" src="img/observer.jpg"></img>
-                    </a>
-                    <p class="description">
-                        Webfographic created for the Tufts Observer's long-distance
-                        relationship survey. Utilizes skrollr.js and CSS animations
-                        for a more dynamic viewing experience.
-                        <br><br>
-                        Live: <a class="sideBttn" href="http://tuftsobserver.org/multimedia/longdistance/">
-                            tuftsobserver.org/multimedia/longdistance</a>
-                        <br>
-                        Source: <a class="sideBttn" href="https://github.com/mimmackk/LDR-Infographic">
-                            github.com/mimmackk/LDR-Infographic</a>
-                    </p>
-
-                    <a href="img/quiz.jpg" target="_blank">
-                        <img class="graphic" alt="" src="img/quiz.jpg"></img>
-                    </a>
-                    <p class="description">
-                        Group collaboration for Web Development class - musical personality
-                        quiz which builds a song in the background based on user's
-                        answers in real time. Built using JQuery, Ajax, Node.js, Heroku,
-                        MongoDB, Chart.js, and Bootstrap. Created on deadline;
-                        some aspects of website, such as geolocation usage, do not
-                        perform perfectly. My contributions focused in the area of
-                        JQuery, Ajax, Chart.js, and Bootstrap.
-                        <br><br>
-                        Live: <a class="sideBttn" href="http://mimmackk.github.io/comp20-semesterproject/">
-                            mimmackk.github.io/comp20-semesterproject</a>
-                        <br>
-                        Source: <a class="sideBttn" href="https://github.com/mimmackk/comp20-semesterproject">
-                            github.com/mimmackk/comp20-semesterproject</a>
-                    </p>
-
-                    <a href="img/fetch.jpg" target="_blank">
-                        <img class="graphic" alt="" src="img/fetch.jpg"></img>
-                    </a>
-                    <p class="description">
-                        Personal project currently in development - screen scraper and
-                        read-it-later tool optimized for online short fiction as
-                        opposed to news articles. Uses Chrome extension, JQuery, Countable.js,
-                        TRUMBOWYG text editor, Google Drive API, and Bootstrap.
-                        See more info on GitHub.
-                        <br><br>
-                        Live: <a class="sideBttn" href="http://mimmackk.github.io/fetchFF/fetch">
-                            mimmackk.github.io/fetchFF/fetch</a>
-                        <br>
-                        Source: <a class="sideBttn" href="https://github.com/mimmackk/fetchFF">
-                            github.com/mimmackk/fetchFF</a>
-                    </p>
-                    <br>
-                    <br>
-                    <h3>See more examples of my code on <a class="sideBttn" href="http://github.com/mimmackk">GitHub</a></h3>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script>
-        /*smooth scrolling on anchor click */
-        $(function() {
-            $('a[href*="#"]:not([href="#"])').click(function() {
-                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                    if (target.length) {
-                        $('html, body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
-                    }
-                }
-            });
-        });
-
-        $("body").fadeIn("slow");
-        $('#sidebar').hide();
-        if ($(window).width() < 768) {
-            $('#sidebar').show();
-        }
-
-        /*fade in sidebar on scroll */
-        $(window).scroll(function() {
-            if ($(window).width() >= 768) {
-                if ($(this).scrollTop() > $(window).height()) {
-                    $('#sidebar').fadeIn();
-                } else {
-                    $('#sidebar').fadeOut();
-                }
-            }
-            else {
-                $('#webTitle').html("Web Dev")
-            }
-        });
-    </script>
+  <div class="wrapper">
+  	
+  	<header>
+  		<div class="col-container">
+      	<div class="col-left">
+      		<p class="bold">Kayden Mimmack</p>
+      		<p>kayden.mimmack@tufts.edu</p>
+      		<p><a href="https://github.com/mimmackk/">Github</a></p>
+      	</div>
+      	<div class="col-right">
+      		<p>
+      			Hi, I'm a CS major at Tufts University minoring in Human Factors. I'm also a multimedia contributor for the Tufts Observer, so I get to take articles and make them interactive and fun to read online. My favorite things are stand-up comedy, public transportation, and weird-looking dogs.
+      		</p>
+      	</div>
+    		<div class="end-cols"></div>
+  			<p class="down-arrow">&darr;</p>
+  		</div>
+  	</header>
+  	
+  	<!--------------------------------------------------------------------->
+   	<h1>Projects</h1>
+ 		<!--------------------------------------------------------------------->
+ 		<h2>Book Recommendations</h2>
+ 		<p><a href="http://tuftsobserver.org/multimedia/bookshelf">Live</a> · <a href="https://github.com/mimmackk/observer-multimedia/tree/master/bookshelf">Github</a> · Built with Masonry, connects to Google Forms and Goodreads</p>
+ 		<img class="web-img" src="img/bookshelf.png" alt="Screenshot"/>
+	     		
+		<h2>Quote Cube</h2>
+ 		<p><a href="http://tuftsobserver.org/multimedia/ecofeminism">Live</a> · <a href="https://github.com/mimmackk/observer-multimedia/tree/master/ecofeminism">Github</a> · Built with waypoints.js, modeled from <a href="https://desandro.github.io/3dtransforms/examples/perspective-03.html">David DeSandro's cube</a></p>
+ 		<img class="web-img" src="img/ecofeminism.png" alt="Screenshot"/>
+	     		
+		<h2>Healthcare Article</h2>
+ 		<p><a href="http://tuftsobserver.org/multimedia/transhealth">Live</a> · <a href="https://github.com/mimmackk/observer-multimedia/tree/master/healthcare">Github</a> · Built with skrollr.js and balloon.css</p>
+		<img class="web-img" src="img/healthcare.png" alt="Screenshot"/>
+	     		
+		<h2>Long Distance Relationships Web-fographic</h2>
+ 		<p><a href="http://tuftsobserver.org/multimedia/longdistance">Live</a> · <a href="https://github.com/mimmackk/observer-multimedia/tree/master/long-distance">Github</a> · Built with skrollr.js</p>
+		<img class="web-img" src="img/ldr.png" alt="Screenshot"/>
+   	
+   	<hr />
+  	<!--------------------------------------------------------------------->
+   	<h1>Artwork and Layout</h1>
+   	<!--------------------------------------------------------------------->
+ 		<img class="art-img" src="img/portrait.png" alt="Black and white illustration of trees and clouds on a starry night"/>
+ 		<img class="art-img" src="img/room.png" alt="3D graphic of a room"/>
+		<img class="art-img" src="img/banner.png" alt="Flyer for music event"/>
+ 		<img class="art-img" src="img/safezone.png" alt="Flyer for safezone training event"/>
+   	<hr />
+	     
+  	<!--------------------------------------------------------------------->
+   	<div id="credits">
+  	<!--------------------------------------------------------------------->
+   		<p>
+   			This website was made with <a href="https://html5boilerplate.com/">HTML5 Boilerplate</a> and inspired by <a href="https://dribbble.com/shots/2685596-Personal-Portfolio">Ruben Stom's personal portfolio</a>. I also used Google Design's resizer web app for the screenshots of my projects.
+   		</p>
+   	</div>
+   	
+  </div>
 </body>
 </html>
