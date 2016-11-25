@@ -1,0 +1,132 @@
+/* Built from HTML5 Boilerplate https://html5boilerplate.com/ */
+
+html {
+  color: #222;
+  font-size: 13px;
+  line-height: 1.8;
+  font-family: monospace;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  align-items: center
+}
+
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: #00a993;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+  padding: 0 4rem;
+}
+
+.web-img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 5rem;
+  width: calc(100% - 10rem);
+  background-color: #eeeeee;
+}
+
+.art-img {
+  margin: 4rem 0;
+  width: 100%;
+}
+
+.col-left {
+  float: left;
+  width: 35%;
+  text-align: left;
+}
+
+.col-right {
+  float: left;
+  width: 65%;
+  text-align: justify;
+}
+
+.col-left p,
+.col-right p {
+  margin: 0;
+  padding: 0;
+}
+
+.end-cols {
+  clear: both;
+}
+
+.down-arrow {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width:720px) {
+  .content-wrapper {
+    padding: 4rem;
+  }
+
+  .web-img {
+    width: 100%;
+    padding: 3rem 0;
+  }
+
+  .col-left {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .col-right {
+    margin: 4rem 0;
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .content-wrapper {
+    padding: 1.5rem;
+  }
+
+  .web-img {
+    padding: 2rem 0;
+  }
+
+  .col-right {
+    text-align: left;
+  }
+}
