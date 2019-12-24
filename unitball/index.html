@@ -22,12 +22,14 @@
   <section>
     <h2>Introduction</h2>
     <h3>What's the \(p\)-norm?</h3>
-    <p>
-      If \(\vec x\) is in \(\mathbb R^n\), i.e., \(\vec x = (x_1, x_2, \ldots, x_n)\), then the \(p\)-norm of \(\vec x\), denoted \(\|\vec x\|_p\), is defined for \(p \geq 1\) by
+    <p>If \(\vec x\) is in \(\mathbb R^n\), i.e., \(\vec x = (x_1, x_2, \ldots, x_n)\), then the \(p\)-norm of \(\vec x\), denoted \(\|\vec x\|_p\), is defined for \(p \geq 1\) by</p>
+    <p class="math">
       \[
       \|\vec x\|_p = \left(\sum_{k = 1}^n |x_k|^p\right)^{1/p}
       \]
-      Perhaps a more intiuitive way of thinking of this is, if \(\vec x\) is in \(\mathbb R^3\) for example, then:
+    </p>
+    <p>Perhaps a more intiuitive way of thinking of this is, if \(\vec x\) is in \(\mathbb R^3\) for example, then:</p>
+    <p class="math">
       \[
       \begin{align*}
       \|\vec x\|_1 &= |x_1|^{\phantom{1}} + |x_2|^{\phantom{1}} + |x_3|^{\phantom{1}}
@@ -45,8 +47,8 @@
 
     <h3>What's the unit ball?</h3>
 
-    <p>
-      The unit ball describes the set of all points whose distance from the origin is 1. So if our distance is induced by the \(p\)-norm, then the unit ball is the collection of \(\vec x\) such that \(\|\vec x\|_p = 1\). The unit ball is often denoted \(\mathcal B\):
+    <p>The unit ball describes the set of all points whose distance from the origin is 1. So if our distance is induced by the \(p\)-norm, then the unit ball is the collection of \(\vec x\) such that \(\|\vec x\|_p = 1\). The unit ball is often denoted \(\mathcal B\):</p>
+    <p class="math">
       \[
       \mathcal B = \left\{\vec x : \|\vec x\| = 1\right\}.
       \]
@@ -85,8 +87,8 @@
 
     <p>Approaching this problem this way turns out to be a <em>terrible</em> idea. If you're smarter than me, then you can probably already see why. But since I'm not smarter than me, I had to barrel through this whole mess first to figure it out.</p>
 
-    <p>
-      First, we need to figure out a formula for \(z\) that depends on \(x\) and \(y\). Since we're graphing the unit ball for variable \(p\), our points \((x, y, z)\) are going to have to satisfy \(\|(x, y, z)\|_p = 1\). So, we pull out the definition of the \(p\)-norm and do some minor rearrangements.
+    <p>First, we need to figure out a formula for \(z\) that depends on \(x\) and \(y\). Since we're graphing the unit ball for variable \(p\), our points \((x, y, z)\) are going to have to satisfy \(\|(x, y, z)\|_p = 1\). So, we pull out the definition of the \(p\)-norm and do some minor rearrangements.</p>
+    <p class="math">
       \[
       \begin{align*}
       \|(x, y, z)\|_p^p &= |x|^p + |y|^p + |z|^p
@@ -230,7 +232,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <img class="center" src="img/spherical.png" alt="Spherical Coordinates">
 
-    <p>
+    <p class="math">
       \[
       \begin{align*}
       x &= r\sin\varphi\cos\theta \\
@@ -244,7 +246,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <p>So, now all we need is an expression for \(r\).</p>
 
-    <p>
+    <p class="math">
       \[
       \begin{align*}
       1 &= |x|^p + |y|^p + |z|^p\\
@@ -305,7 +307,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <img class="center" src="img/cylindrical.png" alt="Cylindrical Coordinates">
 
-    <p>
+    <p class="math">
       \[
       \begin{align*}
       x &= r\cos\theta \\
@@ -317,7 +319,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <p>So, we'll generate our \(z\) values on their own, generate \(\theta\) values from \(0\) to \(2\pi\), then calculate \(r\) based on \(\theta\) and \(z\):</p>
 
-    <p>
+    <p class="math">
       \[
       \begin{align*}
       1 &= |r\cos\theta|^p + |r\sin\theta|^p + |z|^p \\
@@ -375,7 +377,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <p>The \(r_*\) we refer to below is a function of \(\varphi\) and is refering to the distance from a point \((x, 0, z)\) on our surface to the origin. We compute it to find our \(z\)-values.</p>
 
-    <p>
+    <p class="math">
       \[
       \begin{align*}
       1 &= |x|^p + |y|^p + |z|^p\\
@@ -389,7 +391,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <p>So, our \(z\) values are given for each \(\varphi\) by</p>
 
-    <p>
+    <p class="math">
       \[
       \begin{align*}
       z &= r_*\cos\varphi = \frac{\cos\varphi}{\big(\sin^p\varphi + |\cos\varphi|^p\big)^{1/p}}
@@ -405,7 +407,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <p>Note that the \(r\) below is different from \(r_*\): this \(r\) refers to the distance from any point \((x, y, z)\) to the \(z\)-axis. </p>
 
-    <p>
+    <p class="math">
       \[
       \begin{align*}
       1 &= |x|^p + |y|^p + |z|^p \\
@@ -421,7 +423,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <p>So now, we can plug in this \(r\) for our \(x\) and \(y\) values, keeping \(z\) from our earlier computation, and get the points that define our surface:</p>
 
-    <p>
+    <p class="math">
       \[
       \begin{align*}
       x &= \frac{\sin\varphi}{\big(\sin^p\varphi + |\cos\varphi|^p\big)^{1/p}}\cdot\frac{\cos\theta}{\big(|\sin\theta|^p + |\cos\theta|^p\big)^{1/p}} \\
