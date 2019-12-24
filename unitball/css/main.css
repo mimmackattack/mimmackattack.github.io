@@ -59,6 +59,15 @@ pre {
   padding: 0 4rem;
 }
 
+pre, .math {
+  overflow-x: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .content-wrapper {
+    padding: 0 1rem;
+  }
+}
 
 /* ==========================================================================
    Print styles.
