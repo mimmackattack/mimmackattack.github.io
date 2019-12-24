@@ -104,7 +104,7 @@
       \]
     </p>
 
-    <p>Great. So, the plan is to generate a grid of \(x\) and \(y\) values ranging from -1 to 1, calculate the positive \(z\)-value for any \((x, y)\) pair. If some \((x,y)\) pair is outside of our boundary (i.e., \(x\) and \(y\) are large enough that there's no \(z\) such that \(|x|^p + |y|^p + |z|^p = 1\)), then we'll just let the \(z\) value for that point be NaN, and our graphing utility will ignore it. We expect our points will look something like this (in the \(p = 2\) case):</p>
+    <p>Great!! So, the plan is to generate a grid of \(x\) and \(y\) values ranging from -1 to 1, then calculate the positive \(z\)-value for any \((x, y)\) pair. If some \((x,y)\) pair is outside of our boundary (i.e., \(x\) and \(y\) are large enough that there's no \(z\) such that \(|x|^p + |y|^p + |z|^p = 1\)), then we'll just let the \(z\) value for that point be NaN, and our graphing utility will ignore it. We expect our points will look something like this (in the \(p = 2\) case):</p>
 
     <img class="center" src="img/method1idea.png" alt="Idea Behind Method 1">
 
@@ -184,7 +184,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <p>Look at \(p = 100\).</p>
 
-    <p>Look at the surface of \(p = 1\):</p>
+    <p>Look at the surface of \(p = 1\).</p>
 
     <img class="center" src="img/m11p1.png" alt="Surface of p = 1 for method 1.1">
 
@@ -210,13 +210,13 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <p>However, even if we were able to solve the point connection issues with the arrays, there would still be other problems. </p>
 
-    <p>This method doesn't capture the curvature of edges and corners well for high values of \(p\). Since we're working with a finite-sized mesh, our step size can only be so small. Consider an \(x\)-\(z\) cross-section of \(p = 10\) as illustrative example, for \(y\) very close to but not equal to 0:</p>
+    <p>This method doesn't capture the curvature of edges and corners well for high values of \(p\). Since we're working with a finite-sized mesh, our step size can only be so small. Consider an \(x\)-\(z\) cross-section of \(p = 10\) as an example, for \(y\) very close to but not equal to 0:</p>
 
     <img class="center" src="img/cutoff.png" alt="p=10 data cutoff">
 
     <p>In this image, since \(y\) is just a little larger than 0, we don't pick up the point \(x = 1\), since \(1^p + \varepsilon^p > 1\), and so no \(z\)-value exists such that \((1, \varepsilon, z)\) is on the surface of our unit ball. So, we jump from NaN to a very large \(z\) value when we increment \(x\), completely skipping past the exact curvature we want to visualize. </p>
 
-    <p>So, no matter our step size, after a certain \(p\)-value, we're not picking up any of the fine detail of our edges. We're always chopping off essential information, making entire sides of our object flat when they shouldn't be. Take the \(p = 1.5\) case, for example: the corners of our object around \(z = 0\) <em>should</em> be pretty pointy. Even if we've solved our connectivity issue, we would still end up with some object that looks like it's been filed flat around its equator. This method loses detail exactly where we need it most.</p>
+    <p>So, no matter our step size, after a certain \(p\)-value, we're not picking up any of the fine detail of our edges. We're always chopping off essential information, making entire sides of our object flat when they shouldn't be. Take the case \(p = 1.5\), for example: the corners of our object around \(z = 0\) <em>should</em> be pretty pointy. But even if we've solved our connectivity issue, we would still end up with some object that looks like it's been filed flat around its equator. This method loses detail exactly where we need it most.</p>
 
     <h3>Next step?</h3>
 
@@ -242,7 +242,7 @@ fig.update_layout(showlegend=False)</code></pre>
       \]
     </p>
 
-    <p>Parametrically generating a surface plot is not that different from non-parametrically generating one. Instead of creating a mesh grid of \((x, y)\) values, we create a mesh grid of \((\theta, \varphi)\) values. We find an expression for \(r\) based on \(\theta\) and \(\varphi\) and then transform our \(\theta\) and \(\varphi\) arrays into \(x\), \(y\), and \(z\) arrays by the above equations. In this way, we'll move down our surface in \(\varphi\)-bands, where for each fixed value of \(\varphi\), we lay down points in a counterclockwise loop around our surface by varying \(\theta\).</p>
+    <p>Parametrically generating a surface plot isn't that different from non-parametrically generating one. Instead of creating a mesh grid of \((x, y)\) values, we create a mesh grid of \((\theta, \varphi)\) values. We find an expression for \(r\) based on \(\theta\) and \(\varphi\) and then transform our \(\theta\) and \(\varphi\) arrays into \(x\), \(y\), and \(z\) arrays by the above equations. In this way, we'll move down our surface in \(\varphi\)-bands, where for each fixed value of \(\varphi\), we lay down points in a counterclockwise loop around our surface by varying \(\theta\).</p>
 
     <p>So, now all we need is an expression for \(r\).</p>
 
@@ -295,7 +295,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <p>Oh.</p>
 
-    <p>Now the problem is clear—bands of fixed \(\varphi\) do not form visually level \(z\)-bands. If we could achieve infinite smoothness, then we would have an accurate picture, since it's all the same object mathematically. But visually, choosing our bands in this way makes for weird, wobbly edges when we lay down our surface. So spherical <em>approximations</em> to the unit ball fail pretty badly, not in a mathematical sense, but in a visual sense, for large \(p\).</p>
+    <p>Bands of fixed \(\varphi\) do not form visually level \(z\)-bands. If we could achieve infinite smoothness, then we would have an accurate picture, since it's all the same object mathematically. But visually, choosing our bands in this way makes for weird, wobbly edges when we lay down our surface. So spherical <em>approximations</em> to the unit ball fail pretty badly, not in a mathematical sense, but in a visual sense, for large \(p\).</p>
 
     <p>If we want an accurate visual estimation, we need straight edges to look like straight edges and corners to look like corners. We did a fine job in the \(\theta\) direction, (equivalently the \(x\)-\(y\) direction)—we don't need to change what's happening there. It's the \(z\) direction that's causing issues.</p>
   </section>
@@ -303,7 +303,7 @@ fig.update_layout(showlegend=False)</code></pre>
   <section>
     <h2>Method 3: Cylindrical Coordinates</h2>
 
-    <p>Since we want visually level \(z\) bands, let's try just ranging \(z\) from -1 to 1 and working with cylindrical coordinates, eliminating our \(\varphi\) problem while keeping everything good we've gained by using \(\theta\).</p>
+    <p>Since we want visually level \(z\) bands, let's try ranging \(z\) from -1 to 1 and working with cylindrical coordinates, eliminating our \(\varphi\) problem while keeping everything good we've gained by using \(\theta\).</p>
 
     <img class="center" src="img/cylindrical.png" alt="Cylindrical Coordinates">
 
@@ -357,7 +357,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <img class="center" src="img/cylindricalskeleton.png" alt="Skeletons for cylindrical coords">
 
-    <p>Now it's clear. What's happening here is we're running into one of the same issues we had with the first method, just in a slightly different format. Whereas before we had trouble picking up \(z\) values close to 0, now we're struggling to capture them close to 1 and -1. This results in these sort of cap-less objects for large \(p\), where our surface leaps and stretches from a faraway band defined by \(z = 1 - \varepsilon\) to cluster and pile up at the point \((x, y, z) = (0, 0, 1)\).</p>
+    <p>Okay. What's happening here is we're running into one of the same issues we had with the first method, just in a slightly different format. While before we had trouble picking up \(z\) values close to 0, now we're struggling to capture them close to 1 and -1. This results in these sort of cap-less objects for large \(p\), where our surface leaps and stretches from a faraway band defined by \(z = 1 - \varepsilon\) to cluster and pile up at the point \((x, y, z) = (0, 0, 1)\).</p>
 
     <p>But, our previous problem of the wobbly edges <em>has</em> been fixed! We just need a way to make our skeleton look more uniform. Ideally, the horizontal bands of our skeleton will look equally spaced <em>along</em> the surface of the unit ball, rather than simply being equally spaced in the \(z\)-direction.</p>
   </section>
@@ -365,7 +365,7 @@ fig.update_layout(showlegend=False)</code></pre>
   <section>
     <h2>Method 4: Cylindrical-ish with a Sneaky Spherical Trick</h2>
 
-    <p>Since issues are arising from the \(z\) values being evenly-spaced, let's make them <em>not</em> evenly-spaced.</p>
+    <p>Since the problem is that our \(z\) values are evenly-spaced, let's make them <em>not</em> evenly-spaced.</p>
 
     <p>Let's begin with a bit of a false start in spherical coordinates. We'll pop in, steal some useful information, and drag it back to the cylindrical camp to continue our operations there.</p>
 
@@ -389,7 +389,7 @@ fig.update_layout(showlegend=False)</code></pre>
       \]
     </p>
 
-    <p>So, our \(z\) values are given for each \(\varphi\) by</p>
+    <p>So, \(z\) is given for each \(\varphi\) by</p>
 
     <p class="math">
       \[
@@ -461,7 +461,7 @@ fig.update_layout(showlegend=False)</code></pre>
   </section>
 
   <section>
-    <h2>Index</h2>
+    <h2>Appendix</h2>
 
     <p>View as an interactive Jupyter Notebook on Binder:<br><a href="https://mybinder.org/v2/gh/mimmackk/mini-math-scripts/master?filepath=unitball%2FUnit%20Ball%20Process.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Binder logo"></a></p>
 
