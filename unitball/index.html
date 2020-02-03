@@ -283,7 +283,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <h3>What's going on?</h3>
 
-    <p>My first thought was that maybe we were encountering numerical rounding errors with sine and cosine. I tried bumping up the number of steps in the mesh grid, but even setting a very high granularity doesn't fix the problem: it actually makes it more pronounced.</p>
+    <p>My first thought was that maybe we were encountering numerical rounding errors with sine and cosine. I tried bumping up the number of steps in the mesh grid and switching to a symbolic library, but even this doesn't fix the problem: it actually makes it more pronounced.</p>
 
     <p>Instead, the issue becomes clear when we look at the \(\varphi\)-bands for \(p = 100\), which essentially form the skeleton of our surface.</p>
 
@@ -369,7 +369,7 @@ fig.update_layout(showlegend=False)</code></pre>
 
     <img class="center" src="img/trick1.png" alt="Trick: Spherical Portion">
 
-    <p>Some of these \(z\)-values are going to be very close together (or the same, due to rounding), and some will be very far apart, but the overall effect should be that they appear uniformly spaced along the surface of our object when paired with their \(\varphi\) value. </p>
+    <p>Some of these \(z\)-values are going to be very close together (or the same, due to rounding), and some will be very far apart, but the overall effect should be that they appear (basically) uniformly spaced along the surface of our object when paired with their \(\varphi\) value. </p>
 
     <p>The \(r_*\) we refer to below is a function of \(\varphi\) and is refering to the distance from a point \((x, 0, z)\) on our surface to the origin. We compute it to find our \(z\)-values.</p>
 
@@ -524,6 +524,8 @@ def unitball2d(p, smoothness = 8):
   fig.update_yaxes(showgrid=False, zerolinecolor='Grey', showticklabels=False)
 
   fig.show()</code></pre>
+    
+    <p>As a quick note, you could take advantage of the symmetry of this problem a lot more than I did here. We don't actually need to calculate \(x,y\) values for \(\theta \in [0, 2\pi]\); we only need to take \(\theta\) up to \(\pi/4\). We can then intelligently stack our resulting \(x\) and \(y\) values to fill out the entire \(x\)-\(y\) plane (similarly for \(z\) and \(\varphi\)). When I gave this a try, though, on my system at least, this didn't turn out to be any faster. Since we're not working with very many data points to begin with (we don't want to make our graph too slow, and we only need so much resolution to accurately visualize our object), it took longer for my system to do all the necessary gluing-together than to let numpy do its efficient large-matrix computations.</p>
 
     <p>By Kayden Mimmack, 2019</p>
 
