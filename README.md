@@ -1,3 +1,3 @@
-# mimmackattack.github.io
+# mimmackk.github.io
 
-Portfolio Homepage
+[Portfolio Homepage](https://mimmackk.github.io)
