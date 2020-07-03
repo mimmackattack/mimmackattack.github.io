@@ -4,152 +4,263 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Kayden Mimmack</title>
   <meta name="description" content="Online Portfolio">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
+  <header>
+    <div class="vert-center">
+      <h1>Kayden Mimmack</h1>
 
-  <div class="content-wrapper">
-    <header>
-      <div class="header-wrapper">
-        <div class="col-left">
-          <p class="bold">Kayden Mimmack</p>
-          <p><a href="mailto:kjmimmack@ucdavis.edu">kjmimmack@gmail.com</a></p>
-          <p><a href="https://github.com/mimmackk/">GitHub</a></p>
-          <p><a href="https://linkedin.com/in/kayden-mimmack-797187142">LinkedIn</a></p>
-          <p><a href="https://mimmackk.github.io/resume.pdf">Resume</a></p>
-        </div>
-        <div class="col-right">
-          <p>
-          I graduated with a bachelor's degree from Tufts University in 2018 and recently finished my master's at UC Davis. Both of my degrees are in applied mathematics, but I also have a background in both computer science and design. Scroll down for a portfolio of my web development and graphic design work.
-          </p>
-        </div>
-        <div class="end-cols"></div>
-        <p class="down-arrow">&darr;</p>
+      <ul>
+        <li><a href="https://linkedin.com/in/kayden-mimmack-797187142">LinkedIn <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/mimmackk/">GitHub <i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <br>
+        <li>Contact:<br><a href="mailto:kjmimmack@gmail.com">kjmimmack@gmail.com</a></li>
+      <ul>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <!-- Keep this all one line so that newlines don't mess up inline spacing -->
+      <li><a href="#about">About</a></li><li><a href="#math">Math Viz</a></li><li><a href="#web-design">Web Design</a></li><li><a href="#graphic-design">Graphic Design</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <div class="vert-center">
+        <h2>About</h2>
+        <div id="headshot"><img src="img/0.jpg"></div>
+        <p>
+          I'm a programmer, teacher, and designer who enjoys building mathematical vizualizations and designing delightful webpages. I currently live in northern California, where I recently graduated from UC Davis with a Master's in Applied Math, but I grew up in the heart & heat of North Carolina.
+        </p>
+        <p style="text-align: center">
+          <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+        </p>
       </div>
-    </header>
+    </section>
 
-    <!-- ............................................................... -->
-    <h1 id="featured-projects">Highlighted Web Projects</h1>
-    <!-- ............................................................... -->
+    <section id="math">
+      <h2>Math Visualizations</h2>
+      <ul>
+        <li>
+          <h3>Graphing the p-Norm Unit Ball in 3 Dimensions</h3>
+          <p>
+            <a href="http://mimmackk.github.io/unitball">Link</a>
+            Graphing the p-norm unit ball in 2 dimensions is a common exercise introductory analysis. Explore the problem-solving process of modeling the 3-dimensional version, a much more difficult problem, using Python.
+          </p>
+          <img src="https://raw.githubusercontent.com/mimmackk/unitball/master/head.jpg" alt="Screenshot of project">
+        </li>
+        <li>
+          <h3>Hopfield Network Simulation</h3>
+          <p>
+            <a href="https://mimmackk.github.io/hopfield/simulation/index.html">Live</a>
+            <a href="https://github.com/mimmackk/hopfield/">Github</a>
+            Interactive simulation of a Hopfield network, a type of neural network that models associative memory. Created with JavaScript.
+          </p>
+          <img src="https://raw.githubusercontent.com/mimmackk/hopfield/master/simulation/head.jpg" alt="Screenshot of project">
+        </li>
+      </ul>
 
-    <h2>Graphing the p-Norm Unit Ball in 3 Dimensions</h2>
-    <p><a href="http://mimmackk.github.io/unitball">Link</a> · Mathematical exploration of the problem of graphing the p-norm unit ball in 3 dimensions.</p>
-    <img class="web-img-special" src="https://raw.githubusercontent.com/mimmackk/unitball/master/head.jpg" alt="Screenshot of project"/>
-    <!-- <img class="web-img-special2" src="img/animation3d.gif" alt="Screenshot of project"/> -->
+    </section>
 
-    <h2>Hopfield Network Simulation</h2>
-    <p><a href="https://mimmackk.github.io/hopfield/simulation/index.html">Link</a> · Interact with a Hopfield network, a type of neural network that models associative memory.</p>
-    <img class="web-img-special" src="https://raw.githubusercontent.com/mimmackk/hopfield/master/simulation/head.jpg" alt="Screenshot of project"/>
-<!--  -->
-    <h2>Facebook Quiz</h2>
-    <p><a href="http://tuftsobserver.org/multimedia/online-comments">Live</a> · <a href="https://github.com/tuftsobserver/online-comments">Github</a> · Designed from scratch to imitate Facebook - user follows a choose-your-own-adventure quiz in the comments section of a controversial post.</p>
-    <img class="web-img" src="img/online-comments.png" alt="Screenshot of project"/>
+    <section id="web-design">
+      <h2>Web Design & Development</h2>
+      <ul>
+          <li>
+            <h3>Your Opinion Is Now Live</h3>
+            <p>
+              <a href="http://tuftsobserver.org/multimedia/online-comments">Live</a>
+              <a href="https://github.com/tuftsobserver/online-comments">GitHub</a>
+              Choose-your-own-adventure quiz in the comments of an imitation Facebook post. Built to accompany article about online debate.
+            </p>
+            <img src="img/online-comments.png" alt="Screenshot of project">
+          </li>
+          <li>
+            <h3>Major Sprawl</h3>
+            <p>
+              <a href="http://tuftsobserver.org/multimedia/major-sprawl">Live</a>
+              <a href="https://github.com/tuftsobserver/major-sprawl">GitHub</a>
+              Map of the spread of Tufts courses by department across campus, built using Google Maps JavaScript API. Built to accompany article on department centralization.
+            </p>
+            <img src="img/major-sprawl.png" alt="Screenshot of project">
+          </li>
+          <li>
+            <h3>Book Recommendations</h3>
+            <p>
+              <a href="http://tuftsobserver.org/multimedia/bookshelf">Live</a>
+              <a href="https://github.com/tuftsobserver/bookshelf">GitHub</a>
+              Displays live responses from Google Forms using Google Sheets JavaScript API. Automatically links new book recommendations to Goodreads.
+            </p>
+            <img src="img/bookshelf.png" alt="Screenshot of project">
+          </li>
+          <li>
+            <h3>The Literary Issue 2018</h3>
+            <p>
+              <a href="http://tuftsobserver.org/multimedia/lit2018">Live</a>
+              <a href="https://github.com/tuftsobserver/lit2018">GitHub</a>
+              Artistic digitization of the Literary Issue of the Tufts Observer, containing a compilation of poetry, prose, and art.
+            </p>
+            <img src="img/lit2018.png" alt="Screenshot of project">
+          </li>
+      </ul>
 
-    <h2>Major Sprawl</h2>
-    <p><a href="http://tuftsobserver.org/multimedia/major-sprawl">Live</a> · <a href="https://github.com/tuftsobserver/major-sprawl">Github</a> · Maps the spread of Tufts courses by department across campus.</p>
-    <img class="web-img" src="img/major-sprawl.png" alt="Screenshot of project"/>
+      <div class="view-more"><button id="view-more" value="collapsed"><i class="fa fa-angle-down" aria-hidden="true"></i><br>Show More</button></div>
 
-    <h2>Book Recommendations</h2>
-    <p><a href="http://tuftsobserver.org/multimedia/bookshelf">Live</a> · <a href="https://github.com/tuftsobserver/bookshelf">Github</a> · Connects from Google Forms and dynamically links new recommendations to Goodreads.</p>
-    <img class="web-img" src="img/bookshelf.png" alt="Screenshot of project"/>
+      <ul id="collapsable">
+        <li>
+          <h3>Photo Inset: transparency.</h3>
+          <p>
+            <a href="http://tuftsobserver.org/photo-inset/resistance2017/">Live</a>
+            <a href="https://github.com/tuftsobserver/photo-inset/tree/master/resistance2017">GitHub</a>
+            Digital gallery of artistic photoset with snap scrolling.
+          </p>
+          <img src="img/transparency.png" alt="Screenshot of project">
+        </li>
+        <li>
+          <h3>Long Distance</h3>
+          <p>
+            <a href="http://tuftsobserver.org/multimedia/longdistance/">Live</a>
+            <a href="https://github.com/tuftsobserver/longdistance">GitHub</a>
+            Analysis of survey on long-distance relationships, featuring scrolling animations.
+          </p>
+          <img src="img/longdistance.png" alt="Screenshot of project">
+        </li>
+        <li>
+          <h3>The Queerness Issue 2017</h3>
+          <p>
+            <a href="http://tuftsobserver.org/multimedia/queerness2017/">Live</a>
+            <a href="https://github.com/tuftsobserver/queerness2017">GitHub</a>
+            Artistic digitization of the Queerness Issue of the Tufts Observer, containing a compilation of poetry, prose, photography, and art.
+          </p>
+          <img src="img/queerness.png" alt="Screenshot of project">
+        </li>
+        <li>
+          <h3>Podcast: Chartered Exploitation</h3>
+          <p>
+            <a href="http://tuftsobserver.org/multimedia/chartered-exploitation/">Live</a>
+            <a href="https://github.com/tuftsobserver/chartered-exploitation">GitHub</a>
+            Integrates interview sound bites hosted on SoundCloud with article on charter schools.
+          </p>
+          <img src="img/chex.png" alt="Screenshot of project">
+        </li>
+        <li>
+          <h3>Comedy News</h3>
+          <p>
+            <a href="http://tuftsobserver.org/multimedia/comedy-news/">Live</a>
+            <a href="https://github.com/tuftsobserver/comedy-news">GitHub</a>
+            Plays comedy news video clips in the background which change as the reader scrolls through the article.
+          </p>
+          <img src="img/comedy.png" alt="Screenshot of project">
+        </li>
+        <li>
+          <h3>Missed Connections</h3>
+          <p>
+            <a href="http://tuftsobserver.org/multimedia/missed-connections/">Live</a>
+            <a href="https://github.com/tuftsobserver/missed-connections">GitHub</a>
+            Displays live responses from Google Forms using Google Sheets JavaScript API.
+          </p>
+          <img src="img/missed.png" alt="Screenshot of project">
+        </li>
+        <li>
+          <h3>The Literary Issue 2017</h3>
+          <p>
+            <a href="http://tuftsobserver.org/multimedia/lit2017/">Live</a>
+            <a href="https://github.com/tuftsobserver/lit2017">GitHub</a>
+            Artistic digitization of the Literary Issue of the Tufts Observer, containing a compilation of poetry, prose, photography, and art.
+          </p>
+          <img src="img/lit2017.png" alt="Screenshot of project">
+        </li>
+        <li>
+          <h3>South Asia Speaks</h3>
+          <p>
+            <a href="http://tuftsobserver.org/multimedia/south-asia-speaks/">Live</a>
+            <a href="https://github.com/tuftsobserver/south-asia-speaks">GitHub</a>
+            Interactive artwork integrated with SoundCloud interviews, built using EaselJS.
+          </p>
+          <img src="img/speaks.png" alt="Screenshot of project">
+        </li>
+        <li>
+          <h3>Podcast: What does your tattoo mean to you?</h3>
+          <p>
+            <a href="http://tuftsobserver.org/multimedia/tattoos/">Live</a>
+            <a href="https://github.com/tuftsobserver/tattoos">GitHub</a>
+            Dynamic photo grid with integrated interview sound bites.
+          </p>
+          <img src="img/tattoo.png" alt="Screenshot of project">
+        </li>
+        <li>
+          <h3>The Reality of Transitioning at Tufts</h3>
+          <p>
+            <a href="http://tuftsobserver.org/multimedia/transhealth/">Live</a>
+            <a href="https://github.com/tuftsobserver/transhealth">GitHub</a>
+            Article with scrolling animations and hover definitions of unfamiliar terms, built using Balloon.css.
+          </p>
+          <img src="img/transhealth.png" alt="Screenshot of project">
+        </li>
+        <li>
+          <h3>Photo Inset: A Tale of Two Tehrans</h3>
+          <p>
+            <a href="http://tuftsobserver.org/photo-inset/patterns2017/">Live</a>
+            <a href="https://github.com/tuftsobserver/photo-inset/tree/master/patterns2017">GitHub</a>
+            Digital gallery of artistic photoset designed to resemble a handwritten scrapbook.
+          </p>
+          <img src="img/tehran.png" alt="Screenshot of project">
+        </li>
+      </ul>
 
-    <h2>The Literary Issue 2018</h2>
-    <p><a href="http://tuftsobserver.org/multimedia/lit2018">Live</a> · <a href="https://github.com/tuftsobserver/lit2018">Github</a> · Artistic digitization of the special Literary Issue of the Tufts Observer, containing a compilation of poetry, prose, and art.</p>
-    <img class="web-img" src="img/lit2018.png" alt="Screenshot of project"/>
+    </section>
 
+    <section id="graphic-design">
+      <h2>Graphic Design</h2>
+      <ul>
+        <li><img src="img/shirt-front-preview.png" alt="T-shirt design 2018 for Tufts English Language Programs"></li>
+        <li><img src="img/shirt.png" alt="T-shirt design 2016 for Tufts English Language Programs"></li>
+        <li><img src="img/fantasy-map.svg" alt="Fantasy map"></li>
+        <li><img src="img/safezone.png" alt="Flyer for safezone training event"></li>
+        <li><img src="img/moonbright.png" alt="Moonbright album promo"></li>
+        <li><img src="img/facebook-banner.png" alt="Facebook banner image for concert"></li>
+        <li><img src="img/banquet-invite.png" alt="Invitation for banquet"></li>
+        <li><img src="img/tutoring-flyer.png" alt="Flyer for Japanese tutoring club"></li>
+      </ul>
+    </section>
 
-    <hr>
+    <footer>
+      <p><i class="fa fa-info-circle" aria-hidden="true"></i> Background thanks to Hero Patterns. Project screenshots via Google Resizer.</p>
+    </footer>
 
+  </main>
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    // If an internal link is clicked, smooth scroll to that location
+    $('a[href*="#"]').on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate(
+        {scrollTop: $($(this).attr('href')).offset().top},
+        500,
+        'linear'
+      );
+    });
 
-    <!-- ............................................................... -->
-    <h1 id="graphic-design">Graphic Design</h1>
-    <!-- ............................................................... -->
-    <img class="art-img" src="img/shirt.png" alt="T-shirt design 2016 for Tufts English Language Programs" />
-    <img class="art-img" src="img/shirt-front-preview.png" alt="T-shirt design 2018 for Tufts English Language Programs" />
-    <img class="art-img" src="img/safezone.png" alt="Flyer for safezone training event"/>
-    <img class="art-img" src="img/fantasy-map.svg" alt="Fantasy map"/>
-    <img class="art-img" src="img/moonbright.png" alt="Moonbright album promo"/>
-    <img class="art-img" src="img/facebook-banner.png" alt="Facebook banner image for concert"/>
-    <img class="art-img" src="img/banquet-invite.png" alt="Invitation for banquet"/>
-    <img class="art-img" src="img/tutoring-flyer.png" alt="Flyer for Japanese tutoring club"/>
-
-    <hr>
-
-    <!-- ............................................................... -->
-    <h1 id="other-projects">Other Web Projects</h1>
-    <!-- ............................................................... -->
-
-    <div class="other">
-
-    <h3>Photo Inset: transparency.</h3>
-    <p><a href="http://tuftsobserver.org/photo-inset/resistance2017/">Live</a> · <a href="https://github.com/tuftsobserver/photo-inset/tree/master/resistance2017">Github</a></p>
-    <img class="web-img" src="img/transparency.png" alt="Screenshot of project"/>
-
-    <h3>Long Distance</h3>
-    <p><a href="http://tuftsobserver.org/multimedia/longdistance/">Live</a> · <a href="https://github.com/tuftsobserver/longdistance">Github</a></p>
-    <img class="web-img" src="img/longdistance.png" alt="Screenshot of project"/>
-
-    <h3>The Queerness Issue 2017</h3>
-    <p><a href="http://tuftsobserver.org/multimedia/queerness2017/">Live</a> · <a href="https://github.com/tuftsobserver/queerness2017">Github</a></p>
-    <img class="web-img" src="img/queerness.png" alt="Screenshot of project"/>
-
-    <h3>Podcast: Chartered Exploitation</h3>
-    <p><a href="http://tuftsobserver.org/multimedia/chartered-exploitation/">Live</a> · <a href="https://github.com/tuftsobserver/chartered-exploitation">Github</a></p>
-    <img class="web-img" src="img/chex.png" alt="Screenshot of project"/>
-
-    <h3>Comedy News</h3>
-    <p><a href="http://tuftsobserver.org/multimedia/comedy-news/">Live</a> · <a href="https://github.com/tuftsobserver/comedy-news">Github</a></p>
-    <img class="web-img" src="img/comedy.png" alt="Screenshot of project"/>
-
-    <h3>Missed Connections</h3>
-    <p><a href="http://tuftsobserver.org/multimedia/missed-connections/">Live</a> · <a href="https://github.com/tuftsobserver/missed-connections">Github</a></p>
-    <img class="web-img" src="img/missed.png" alt="Screenshot of project"/>
-
-    <h3>The Literary Issue 2017</h3>
-    <p><a href="http://tuftsobserver.org/multimedia/lit2017/">Live</a> · <a href="https://github.com/tuftsobserver/lit2017">Github</a></p>
-    <img class="web-img" src="img/lit2017.png" alt="Screenshot of project"/>
-
-    <h3>2008</h3>
-    <p><a href="http://tuftsobserver.org/multimedia/2008/">Live</a> · <a href="https://github.com/tuftsobserver/2008">Github</a></p>
-    <img class="web-img" src="img/2008.png" alt="Screenshot of project"/>
-
-    <h3>South Asia Speaks</h3>
-    <p><a href="http://tuftsobserver.org/multimedia/south-asia-speaks/">Live</a> · <a href="https://github.com/tuftsobserver/south-asia-speaks">Github</a></p>
-    <img class="web-img" src="img/speaks.png" alt="Screenshot of project"/>
-
-    <h3>Podcast: What does your tattoo mean to you?</h3>
-    <p><a href="http://tuftsobserver.org/multimedia/tattoos/">Live</a> · <a href="https://github.com/tuftsobserver/tattoos">Github</a></p>
-    <img class="web-img" src="img/tattoo.png" alt="Screenshot of project"/>
-
-    <h3>The Reality of Transitioning at Tufts</h3>
-    <p><a href="http://tuftsobserver.org/multimedia/transhealth/">Live</a> · <a href="https://github.com/tuftsobserver/transhealth">Github</a></p>
-    <img class="web-img" src="img/transhealth.png" alt="Screenshot of project"/>
-
-    <h3>Photo Inset: A Tale of Two Tehrans</h3>
-    <p><a href="http://tuftsobserver.org/photo-inset/patterns2017/">Live</a> · <a href="https://github.com/tuftsobserver/photo-inset/tree/master/patterns2017">Github</a></p>
-    <img class="web-img" src="img/tehran.png" alt="Screenshot of project"/>
-
-    </div>
-
-
-    <hr>
-
-    <!-- ............................................................... -->
-    <div id="credits">
-    <!-- ............................................................... -->
-      <p>
-      This webpage uses Google Design's resizer web app for screenshots of projects.
-      </p>
-    </div>
-
-  </div>
-
-  <script src="js/modernizr-2.8.3.min.js"></script>
-
+    $('.view-more button').on('click', function() {
+      if ($(this).attr("value") == "collapsed") {
+        $('#collapsable').show(500);
+        $(this).attr("value", "visible");
+        $(this).html("<i class='fa fa-angle-up' aria-hidden='true'></i><br>Show Less");
+      } else {
+        $('#collapsable').hide(500);
+        $(this).attr("value", "collapsed");
+        $(this).html("<i class='fa fa-angle-down' aria-hidden='true'></i><br>Show More");
+      }
+    })
+  </script>
 </body>
 </html>

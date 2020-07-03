@@ -1,152 +1,215 @@
-/* Built from HTML5 Boilerplate https://html5boilerplate.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Major+Mono+Display&display=swap');
 
-html {
-  color: #222;
-  font-size: 13px;
-  line-height: 1.8;
-  font-family: monospace;
+* {
+  box-sizing: border-box;
 }
 
-header {
-  height: 100vh;
-  display: flex;
-  align-items: center
-}
-
-h1 {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-h2 {
-  margin-top: 4rem;
-}
-
-h3 {
-  margin-bottom: 0;
-}
-
-.other p {
-  margin-top: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #00a993;
-}
-
-a:hover {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 2rem 0;
-  padding: 0;
-}
-
-.content-wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 720px;
-  padding: 0 4rem;
-}
-
-.web-img {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding: 5rem;
-  width: calc(100% - 10rem);
-  background-color: #f9f9f9;
-}
-
-.web-img-special {
-  margin-top: 2rem;
-  width: 100%;
-}
-.web-img-special2 {
-  margin-bottom: 2rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 60%;
-}
-
-.art-img {
-  margin: 4rem 0;
-  width: 100%;
-}
-
-.col-left {
-  float: left;
-  width: 35%;
-  text-align: left;
-}
-
-.col-right {
-  float: left;
-  width: 65%;
-  text-align: justify;
-}
-
-.col-left p,
-.col-right p {
+body {
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
-.end-cols {
-  clear: both;
+/* Remove default list styles */
+ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
 }
 
-.down-arrow {
-  font-size: 2rem;
-  text-align: center;
+/* Link sytling */
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.bold {
+p a {
   font-weight: bold;
 }
 
+p a:after {
+  content: " · ";
+  font-weight: 300;
+}
 
-@media only screen and (max-width:720px) {
-  .content-wrapper {
-    padding: 4rem;
+/* Section header styling */
+h2 {
+  margin-bottom: 2rem;
+  border-bottom: 3px double black;
+  border-top: 3px double black;
+  padding: 2rem 0;
+  font-family: 'Major Mono Display', monospace;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+/* Left description */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  height: 100vh;
+  width: 25%;
+  min-width: 20rem;
+  padding: 1rem;
+  background-color: #00222c;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23004f66' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  font-family: 'Major Mono Display', monospace;
+  text-transform: lowercase;
+  text-align: right;
+  color: white;
+}
+
+header .vert-center {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 2rem;
+}
+
+#about .vert-center {
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
+  max-width: 600px;
+}
+
+/* Navigation links stuck to top of page */
+nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  width: 75%;
+  max-width: calc(100% - 20rem);
+  border-bottom: 1px solid #00222c;
+  background-color: white;
+  font-family: 'Major Mono Display', monospace;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+nav ul {
+  margin: 16px 0;
+}
+
+/* Display navigation links horizontally, not vertically */
+nav li {
+  display: inline;
+  padding: 0 2rem;
+}
+
+/* Add separator between menu elements */
+nav li + li {
+  border-left: 1px solid #00222c;
+}
+
+/* Main page content on right half of page */
+main {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  width: 75%;
+  max-width: calc(100% - 20rem);
+  background-color: white;
+}
+
+section,
+footer {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+section li {
+  margin: 4rem auto;
+}
+
+li img {
+  width: 100%;
+}
+
+#about {
+  height: 100vh;
+}
+
+#about h2 {
+  margin: auto;
+  padding: auto;
+  border: none;
+}
+
+#headshot {
+  text-align: center;
+}
+
+#headshot img {
+  border-radius: 100%;
+  height: 150px;
+}
+
+.view-more {
+  text-align: center;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: 0;
+	padding: 0.5em;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  font-weight: bold;
+}
+
+#collapsable {
+  display: none;
+}
+
+/* Mobile styling */
+@media only screen and (max-width: 1080px) {
+
+  /* Move left description to top and remove navigation links */
+  header {
+    position: static;
+    width: 100%;
+    min-width: 0;
+    height: auto;
   }
 
-  .web-img {
-    width: 100%;
-    padding: 3rem 0;
-  }
-
-  .col-left {
-    float: none;
-    width: 100%;
+  header ul,
+  header h1 {
     text-align: center;
   }
 
-  .col-right {
-    margin: 4rem 0;
-    float: none;
+  nav {
+    display: none;
+  }
+
+  main {
+    position: static;
     width: 100%;
-    text-align: left;
-  }
-}
-
-@media only screen and (max-width:500px) {
-  .content-wrapper {
-    padding: 1.5rem;
+    max-width: 100%;
   }
 
-  .web-img {
-    padding: 2rem 0;
+  section {
+    min-height: 0;
   }
 
-  .col-right {
-    text-align: left;
+  #about .vert-center,
+  header .vert-center {
+    position: static;
+    transform: translateY(0%);
+  }
+
+  #about {
+    height: auto;
   }
 }
