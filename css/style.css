@@ -33,6 +33,11 @@ p a:after {
   font-weight: 300;
 }
 
+.evals a {
+  color: revert;
+  text-decoration: revert;
+}
+
 /* Section header styling */
 h2 {
   margin-bottom: 2rem;
@@ -129,6 +134,10 @@ footer {
 
 section li {
   margin: 4rem auto;
+}
+
+.evals li {
+  margin: revert;
 }
 
 li img {
