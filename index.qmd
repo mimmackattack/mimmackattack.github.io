@@ -1,0 +1,13 @@
+---
+title: "About"
+page-layout: article
+toc-title: "On This Page"
+---
+
+Hello! I'm a data analyst working with the Harvard Aging Brain Study and affiliated satellite studies on Alzheimer's Disease research. 
+
+I love R and data visualization (I'm a huge fan of the R "tidyverse," and this website was built with Quarto)! However, I've also got an especially soft spot for numerically complex projects where I can pull from my academic background in applied math. My weirdest simple pleasure is data cleaning---I love wrangling nasty datasets!
+
+I currently live in Somerville, Massachusetts, but I grew up in North Carolina and spent several years in California for graduate school. In my free time I love biking along the Minuteman Bikeway, racking up Dunkin' rewards, and reading science fiction & fantasy novels.
+
+This website contains my [CV](cv.qmd) and a portfolio of some of my favorite [personal projects](projects.qmd) I've created using R, Python, and Javascript.

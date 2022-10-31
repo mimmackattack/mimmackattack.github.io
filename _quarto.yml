@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kayden Mimmack"
+  sidebar:
+    style: "floating"
+    search: false
+    title: "Kayden Mimmack"
+    logo: "images/biopic.png"
+    contents: 
+      - index.qmd
+      - cv.qmd
+      - projects.qmd
+    align: center
+    pinned: true
+    tools:
+      - icon: github
+        href: https://github.com/mimmackk
+        text: "GitHub Profile"
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kjmimmack/
+        text: "LinkedIn Profile"
+      - icon: twitter
+        href: https://twitter.com/kjmimmack
+        text: "Twitter Profile"
+      - icon: envelope
+        href: mailto:kjmimmack@gmail.com
+        text: "E-Mail"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+

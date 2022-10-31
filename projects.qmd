@@ -1,0 +1,39 @@
+---
+title: "Selected Projects"
+page-layout: article
+toc-title: "On This Page"
+number-sections: true
+anchor-sections: false
+---
+
+## ["Tidy Tuesday" Data Visualizations](https://github.com/mimmackk/tidytuesday){style="color: inherit; text-decoration: none;"}
+
+Collection of mini data visualization projects made with R as a part of the weekly [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) challenge from the R4DS Online Learning Community. [View on GitHub](https://github.com/mimmackk/tidytuesday).
+
+[![](images/tidytuesday.png){fig-alt="Collage of four data visualizations for Tidy Tuesday"}](https://github.com/mimmackk/tidytuesday)
+
+## [Plotting the 3D *p*-Norm Unit Ball](https://mimmackk.github.io/unitball/){style="color: inherit; text-decoration: none;"}
+
+A walkthrough of the problem-solving process for a tricky 3D plotting question using the Plotly library. This project details how to plot a sphere, a cube, an octahedron, and every continuous shape in between using a single function, with digressions on principles of numerical analysis, coordinate systems, and the inner workings of plotting libraries. Culminates with a live, interactive 3D plot.
+
+View this project in two versions: [Python](https://mimmackk.github.io/unitball/) \| [JavaScript](https://observablehq.com/@mimmackk/unitball)
+
+[![](images/pnorm.jpg){fig-alt="Image of several stages of construction of a 3D mesh grid, an octahedron, and a sphere"}](https://mimmackk.github.io/unitball/)
+
+## [Hopfield Network Simulation](https://mimmackk.github.io/hopfield/){style="color: inherit; text-decoration: none;"}
+
+A live, interactive simulation of a Hopfield network---a type of neural network that models associative memory. Created with JavaScript.
+
+[View Live](https://mimmackk.github.io/hopfield/) \| [Source Code](https://github.com/mimmackk/hopfield/)
+
+[![](images/hopfield.jpg){fig-alt="A title card for the Hopfield Network project featuring a 3-by-5 grid of dots"}](https://mimmackk.github.io/hopfield/)
+
+## [Geographic Spread of University Departments](https://tuftsobserver.org/multimedia/major-sprawl/){style="color: inherit; text-decoration: none;"}
+
+An interactive map of the geographic spread of courses by department at Tufts University. This project was built with JavaScript to accompany an article for the *Tufts Observer* campus magazine.
+
+Group effort: Kayden Mimmack co-designed, co-developed, performed data collection, integrated data with Google Maps API, and edited responsive mobile design.
+
+[View Live](https://tuftsobserver.org/multimedia/major-sprawl/) \| [Source Code](https://github.com/tuftsobserver/major-sprawl)
+
+[![](images/major-sprawl.png){fig-alt="Screenshot of the geography project viewed on different sized devices"}](https://tuftsobserver.org/multimedia/major-sprawl/)

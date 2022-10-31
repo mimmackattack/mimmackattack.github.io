@@ -1,0 +1,110 @@
+---
+title: "Curriculum Vitae"
+toc-depth: 2
+toc-title: "On This Page"
+anchor-sections: false
+---
+
+## Experience
+
+**Data Analyst I**\
+Massachusetts General Hospital\
+[May 2021 -- Present]{style="color: grey;"}
+
+-   Performing data analysis and visualization, primarily in R, for the Harvard Aging Brain Study and affiliated studies
+-   Quality checking data collected from neuropsychological assessments, surveys, and brain imaging scans
+-   Writing and editing manuscripts and presenting original research at international conferences
+-   Designing and presenting workshops on programming, visualization, and statistics
+-   Supervising and mentoring interns across a broad spectrum of technical skill levels
+
+**Mathematics Teaching Assistant**\
+University of California, Davis\
+[September 2018 -- June 2020]{style="color: grey;"}
+
+-   Taught weekly discussion sessions for undergraduate mathematics courses
+-   Requested by name by multiple instructors
+-   Earned stellar teaching evaluations, attaining a final rating of 4.8/5
+-   Achieved highest student exam scores in every class with multiple TAs
+
+**Associate Instructor in Mathematics**\
+University of California, Davis\
+[Summer 2019]{style="color: grey;"}
+
+-   Instructor of record for Linear Algebra course
+-   Nominated for Outstanding Graduate Student Teaching Award
+
+**Multimedia Director**\
+Tufts Observer Student Magazine\
+[January 2015 -- May 2018]{style="color: grey;"}
+
+-   Designed, developed, and edited web applications and data visualizations to accompany magazine articles
+-   Grew from partnered creative effort with 1-2 projects per semester to leading 7-person team with biweekly releases
+
+**Undergraduate Mathematics Researcher**\
+University of California, Santa Barbara\
+[Summer 2017]{style="color: grey;"}
+
+-   Conducted a partnered research project in numerical linear algebra under the National Science Foundation's Research Experience for Undergraduates Program
+-   Bounded the conditions under which a common method for computing eigenvalues of matrix polynomials is inaccurate
+-   Coded and optimized corroborative numerical experiments in MATLAB
+-   Wrote and presented 30-page research paper detailing results
+
+## Education
+
+**M.S. Applied Mathematics**\
+University of California, Davis\
+[September 2018 -- June 2020]{style="color: grey;"}
+
+-   Graduate Student Association Representative
+
+**B.S. Applied Mathematics**\
+Tufts University\
+[August 2014 -- May 2018]{style="color: grey;"}
+
+-   Summa Cum Laude
+-   International Mathematical Contest in Modeling 2017 Meritorious Winner (Team of 3)
+    -   Modeled effect of self-driving cars on Seattle traffic using MATLAB
+
+## Skills
+
+R · Python · MATLAB · SQL · JavaScript · HTML/CSS · $\LaTeX$
+
+## Publications
+
+Willey, B., **Mimmack, K.**, *et al.* (2022, March). Racial and Socioeconomic Status Differences in Stress, Posttraumatic Growth, and Mental Health in an Older Adult Cohort During the COVID-19 Pandemic. *EClinicalMedicine, 45*, 101343. [doi.org/10.1016/j.eclinm.2022.101343](https://doi.org/10.1016/j.eclinm.2022.101343)
+
+Gonzalez, C., **Mimmack, K.**, *et al.* (Submitted). Associations of the Harvard Automated Phone Task and Alzheimer's Disease Pathology in Clinically Normal Older Adults.
+
+**Mimmack, K.**, Gagliardi, G., Marshall, G., Vannini, P. (Submitted). A Novel Approach to Measure Awareness of Memory Decline and its Ability to Predict Clinical Progression in Cognitively Normal Older Adults.
+
+## Presentations
+
+**Mimmack, K.**, Sprague, E., Amariglio, R., Vannini, P., Marshall, G. (2022, December; Accepted). Longitudinal Evolution of Financial Capacity and Cerebral Tau and Amyloid Burden in Cognitively Normal Older Adults, Mild Cognitive Impairment, and Alzheimer's Disease Dementia. Poster accepted for presentation at: Clinical Trials on Alzheimer's Disease Conference, San Francisco, CA
+
+**Mimmack, K.**, Gagliardi, G., Marshall, G., Vannini, P. (2022, August). A Novel Approach to Measure Awareness of Memory Decline and its Ability to Predict Clinical Progression in Cognitively Normal Older Adults. Poster presented at: The Alzheimer's Association International Conference, San Diego, CA
+
+**Mimmack, K.**, Towfiq, K., Bueno, M. (2017, August). Catastrophic Condition Number of Pencils Close to Whirlpool Pencils in DL(P). Poster presented at: UCSB Summer Undergraduate & Graduate Research Colloquium, Santa Barbara, CA
+
+## Teaching
+
+### Workshops
+
+-   **Intro to R Markdown ·** [November 2022]{style="color: grey;"}\
+    For the Harvard Aging Brain Study
+-   **Intro to MATLAB ·** [August 2022]{style="color: grey;"}\
+    For the Multicultural Alzheimer's Prevention Program & Harvard Aging Brain Study Summer Seminar
+-   **Data Transformation, Visualization, and Analysis with R ·** [June -- August 2022]{style="color: grey;"}\
+    Workshop series for the Memory Awareness Study
+-   **Intro to the R Tidyverse ·** [February 2022]{style="color: grey;"}\
+    For the Harvard Aging Brain Study
+
+### Instructor of Record (UC Davis)
+
+-   **Linear Algebra ·** [Summer 2019]{style="color: grey;"}
+
+### Teaching Assistant (UC Davis)
+
+-   **Linear Algebra ·** [Spring 2020]{style="color: grey;"}
+-   **Calculus I for Biology & Medicine ·** [Fall 2018, Fall 2019\* (Lead TA)]{style="color: grey;"}
+-   **Calculus II for Biology & Medicine ·** [Spring 2019, Winter 2020]{style="color: grey;"}
+-   **Pre-Calculus ·** [Winter 2019]{style="color: grey;"}

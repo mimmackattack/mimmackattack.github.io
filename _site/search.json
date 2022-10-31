@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Selected Projects",
+    "section": "",
+    "text": "Collection of mini data visualization projects using R as a part of the weekly Tidy Tuesday challenge from the R4DS Online Learning Community. View on GitHub."
+  },
+  {
+    "objectID": "projects.html#plotting-the-3d-p-norm-unit-ball",
+    "href": "projects.html#plotting-the-3d-p-norm-unit-ball",
+    "title": "Selected Projects",
+    "section": "2 Plotting the 3D p-Norm Unit Ball",
+    "text": "2 Plotting the 3D p-Norm Unit Ball\nA walkthrough of the problem-solving process for a tricky 3D plotting question using the Plotly library. Details how to plot a sphere, a cube, an octahedron, and every continuous shape in between, with digressions on principles of numerical analysis, coordinate systems, and the inner workings of plotting libraries. Culminates with a live, interactive 3D plot.\nView this project in two versions: Python | JavaScript"
+  },
+  {
+    "objectID": "projects.html#hopfield-network-simulation",
+    "href": "projects.html#hopfield-network-simulation",
+    "title": "Selected Projects",
+    "section": "3 Hopfield Network Simulation",
+    "text": "3 Hopfield Network Simulation\nA live, interactive simulation of a Hopfield network—a type of neural network that models associative memory. Created with JavaScript.\nView Live | Source Code"
+  },
+  {
+    "objectID": "projects.html#geographic-spread-of-university-departments",
+    "href": "projects.html#geographic-spread-of-university-departments",
+    "title": "Selected Projects",
+    "section": "4 Geographic Spread of University Departments",
+    "text": "4 Geographic Spread of University Departments\nAn interactive map of the geographic spread of courses by department at Tufts University. This project was built with JavaScript to accompany an article for the Tufts Observer campus magazine.\nGroup effort: Kayden Mimmack co-designed, co-developed, performed data collection, integrated data with Google Maps API, and edited responsive mobile design.\nView Live | Source Code"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "Welcome! I’m currently a data analyst working on Alzheimer’s Disease research with the Harvard Aging Brain Study and affiliated satellite studies. I love R and data visualization (I’m a huge fan of the R “tidyverse,” and this website was built with Quarto)! However, I’ve got an especially soft spot for numerically complex projects where I can pull from my academic background in mathematics. My weirdest simple pleasure is data cleaning—I love wrangling nasty datasets!\nI live in Somerville, Massachusetts, but I grew up in North Carolina and spent several years in California for graduate school studying applied math. In my free time I love biking along the Minuteman Bikeway, racking up Dunkin’ rewards, and reading science fiction & fantasy novels.\nThis website contains my CV and a portfolio of a few of my favorite personal projects I’ve created using R, Python, and Javascript."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Data Analyst I\nMassachusetts General Hospital\nMay 2021 – Present\n\nPerforming data analysis and visualization, primarily in R, for the Harvard Aging Brain Study and affiliated studies\nQuality checking neuropsychological assessments, surveys, and brain imaging data\nWriting and editing manuscripts and presenting original research at international conferences\nDesigning and presenting workshops on programming, visualization, and statistics\nSupervising and mentoring interns\n\nMathematics Teaching Assistant\nUniversity of California, Davis\nSeptember 2018 – June 2020\n\nTaught weekly discussion sessions for undergraduate mathematics courses\nRequested by name by multiple instructors\nEarned stellar teaching evaluations, attaining a final rating of 4.8/5\nAchieved highest student exam scores in every class with multiple TAs\n\nAssociate Instructor in Mathematics\nUniversity of California, Davis\nSummer 2019\n\nInstructor of record for Linear Algebra course\nNominated for Outstanding Graduate Student Teaching Award\n\nMultimedia Director\nTufts Observer Student Magazine\nJanuary 2015 – May 2018\n\nDesigned, developed, and edited web applications and data visualizations to accompany magazine articles\nGrew from partnered creative effort with 1-2 projects per semester to leading 7-person team with biweekly releases\n\nUndergraduate Mathematics Researcher\nUniversity of California, Santa Barbara\nSummer 2017\n\nConducted a partnered research project in numerical linear algebra under the National Science Foundation’s Research Experience for Undergraduates Program\nBounded the conditions under which a common method for computing eigenvalues of matrix polynomials is inaccurate\nCoded and optimized corroborative numerical experiments in MATLAB\nWrote and presented 30-page research paper detailing results"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\nM.S. Applied Mathematics\nUniversity of California, Davis\nSeptember 2018 – June 2020\n\nGraduate Student Association Representative\n\nB.S. Applied Mathematics\nTufts University\nAugust 2014 – May 2018\n\nSumma Cum Laude\nInternational Mathematical Contest in Modeling 2017 Meritorious Winner (Team of 3)\n\nModeled effect of self-driving cars on Seattle traffic using MATLAB"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\nR · Python · MATLAB · SQL · JavaScript · HTML/CSS · \\(\\LaTeX\\)"
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "Curriculum Vitae",
+    "section": "Publications",
+    "text": "Publications\nWilley, B., Mimmack, K., et al. (2022, March). Racial and Socioeconomic Status Differences in Stress, Posttraumatic Growth, and Mental Health in an Older Adult Cohort During the COVID-19 Pandemic. EClinicalMedicine, 45, 101343. doi.org/10.1016/j.eclinm.2022.101343\nGonzalez, C., Mimmack, K., et al. (In Review). Associations of the Harvard Automated Phone Task and Alzheimer’s Disease Pathology in Clinically Normal Older Adults.\nMimmack, K., Gagliardi, G., Marshall, G., Vannini, P. (In Review). A Novel Approach to Measure Awareness of Memory Decline and its Ability to Predict Clinical Progression in Cognitively Normal Older Adults."
+  },
+  {
+    "objectID": "cv.html#presentations",
+    "href": "cv.html#presentations",
+    "title": "Curriculum Vitae",
+    "section": "Presentations",
+    "text": "Presentations\nMimmack, K., Sprague, E., Amariglio, R., Vannini, P., Marshall, G. (2022, December; Accepted). Longitudinal Evolution of Financial Capacity and Cerebral Tau and Amyloid Burden in Cognitively Normal Older Adults, Mild Cognitive Impairment, and Alzheimer’s Disease Dementia. Poster accepted for presentation at: Clinical Trials on Alzheimer’s Disease Conference, San Francisco, CA\nMimmack, K., Gagliardi, G., Marshall, G., Vannini, P. (2022, August). A Novel Approach to Measure Awareness of Memory Decline and its Ability to Predict Clinical Progression in Cognitively Normal Older Adults. Poster presented at: The Alzheimer’s Association International Conference, San Diego, CA\nMimmack, K., Towfiq, K., Bueno, M. (2017, August). Catastrophic Condition Number of Pencils Close to Whirlpool Pencils in DL(P). Poster presented at: UCSB Summer Undergraduate & Graduate Research Colloquium, Santa Barbara, CA"
+  },
+  {
+    "objectID": "cv.html#teaching",
+    "href": "cv.html#teaching",
+    "title": "Curriculum Vitae",
+    "section": "Teaching",
+    "text": "Teaching\n\nWorkshops\n\nIntro to R Markdown · November 2022\nFor the Harvard Aging Brain Study\nIntro to MATLAB · August 2022\nFor the Multicultural Alzheimer’s Prevention Program & Harvard Aging Brain Study Summer Seminar\nData Transformation, Visualization, and Analysis with R · June – August 2022\nWorkshop series for the Memory Awareness Study\nIntro to the R Tidyverse · February 2022\nFor the Harvard Aging Brain Study\n\n\n\nInstructor of Record (UC Davis)\n\nLinear Algebra · Summer 2019\n\n\n\nTeaching Assistant (UC Davis)\n\nLinear Algebra · Spring 2020\nCalculus I for Biology & Medicine · Fall 2018, Fall 2019* (Lead TA)\nCalculus II for Biology & Medicine · Spring 2019, Winter 2020\nPre-Calculus · Winter 2019"
+  }
+]
