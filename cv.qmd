@@ -1,94 +1,117 @@
 ---
 title: "Curriculum Vitae"
-toc-depth: 2
+toc-depth: 3
 toc-title: "On This Page"
 anchor-sections: false
 ---
 
 ## Experience
 
-**Data Analyst I**\
-Massachusetts General Hospital\
-[May 2021 -- Present]{style="color: grey;"}
+**Commonwealth of Massachusetts**\
+Healthcare Data Analyst [(Jul 2023 -- Present)]{style="color: grey;"}
 
--   Performing data analysis and visualization, primarily in R, for the Harvard Aging Brain Study and affiliated studies
--   Quality checking data collected from neuropsychological assessments, surveys, and brain imaging scans
--   Writing and editing manuscripts and presenting original research at international conferences
--   Designing and presenting workshops on programming, visualization, and statistics
--   Supervising and mentoring interns across a broad spectrum of technical skill levels
+-   Analyze healthcare data in SQL and build & maintain Tableau dashboards to monitor cost, utilization, and KPIs for programs in the Office of Behavioral Health at MassHealth
 
-**Mathematics Teaching Assistant**\
-University of California, Davis\
-[September 2018 -- June 2020]{style="color: grey;"}
+**Massachusetts General Hospital**\
+Data Analyst II [(Dec 2022 -- Jul 2023)]{style="color: grey;"}\
+Data Analyst I [(May 2021 -- Dec 2022)]{style="color: grey;"}
+
+-   Performed cross-sectional and longitudinal data analysis and visualization, primarily in R, for the Harvard Aging Brain Study and affiliated studies
+-   Wrote and edited manuscripts and presented original research at international conferences
+-   Designed and constructed robust QC pipelines integrating REDCap & MySQL databases
+-   Led workshops on R programming for medical researchers and other data analysts
+-   Supervised and mentored student interns
+
+**University of California, Davis**\
+Mathematics Teaching Assistant [(Sep 2018 -- Jun 2020)]{style="color: grey;"}\
+Associate Instructor in Mathematics [(Summer 2019)]{style="color: grey;"}
 
 -   Taught weekly discussion sessions for undergraduate mathematics courses
 -   Requested by name by multiple instructors
 -   Earned stellar teaching evaluations, attaining a final rating of 4.8/5
--   Achieved highest student exam scores in every class with multiple TAs
-
-**Associate Instructor in Mathematics**\
-University of California, Davis\
-[Summer 2019]{style="color: grey;"}
-
--   Instructor of record for Linear Algebra course
+-   Instructor of record for Summer 2019 Linear Algebra course
 -   Nominated for Outstanding Graduate Student Teaching Award
 
-**Multimedia Director**\
-Tufts Observer Student Magazine\
-[January 2015 -- May 2018]{style="color: grey;"}
-
--   Designed, developed, and edited web applications and data visualizations to accompany magazine articles
--   Grew from partnered creative effort with 1-2 projects per semester to leading 7-person team with biweekly releases
-
-**Undergraduate Mathematics Researcher**\
-University of California, Santa Barbara\
-[Summer 2017]{style="color: grey;"}
+**University of California, Santa Barbara**\
+Undergraduate Mathematics Researcher [(Summer 2017)]{style="color: grey;"}
 
 -   Conducted a partnered research project in numerical linear algebra under the National Science Foundation's Research Experience for Undergraduates Program
 -   Bounded the conditions under which a common method for computing eigenvalues of matrix polynomials is inaccurate
 -   Coded and optimized corroborative numerical experiments in MATLAB
--   Wrote and presented 30-page research paper detailing results
+-   Co-wrote and presented 30-page research paper detailing results
 
 ## Education
 
 **M.S. Applied Mathematics**\
 University of California, Davis\
-[September 2018 -- June 2020]{style="color: grey;"}
-
--   Graduate Student Association Representative
+[Sep 2018 -- Jun 2020]{style="color: grey;"}
 
 **B.S. Applied Mathematics**\
 Tufts University\
-[August 2014 -- May 2018]{style="color: grey;"}
-
--   Summa Cum Laude
--   International Mathematical Contest in Modeling 2017 Meritorious Winner (Team of 3)
-    -   Modeled effect of self-driving cars on Seattle traffic using MATLAB
+[Aug 2014 -- May 2018]{style="color: grey;"}
 
 ## Skills
 
-R · Python · MATLAB · SQL · JavaScript · HTML/CSS · $\LaTeX$
+R · SQL · Tableau · MATLAB · JavaScript · HTML/CSS · $\LaTeX$
 
 ## Publications
 
-Willey, B., **Mimmack, K.**, *et al.* (2022, March). Racial and Socioeconomic Status Differences in Stress, Posttraumatic Growth, and Mental Health in an Older Adult Cohort During the COVID-19 Pandemic. *EClinicalMedicine, 45*, 101343. [doi.org/10.1016/j.eclinm.2022.101343](https://doi.org/10.1016/j.eclinm.2022.101343)
+### Journal Articles
 
-Gonzalez, C., **Mimmack, K.**, *et al.* (Submitted). Associations of the Harvard Automated Phone Task and Alzheimer's Disease Pathology in Clinically Normal Older Adults.
+(1) Burling, J., Katz, Z., Yuan, Z., Munro, C., **Mimmack, K.**, Ma, G., Hanseeuw, B., Papp, K., Amariglio, R., Vannini, P., Rentz, D., Quiroz, Y., Johnson, K., Sperling, R., Blacker, D., Marshall, G., Yang, H.-S. & Gatchel, J. (2024, February). Study Partner Report of Apathy in Older Adults is Associated with AD Biomarkers: Findings from the Harvard Aging Brain Study. *The American Journal of Geriatric Psychiatry.* [doi.org/10.1016/j.jagp.2024.01.020](https://doi.org/10.1016/j.jagp.2024.01.020)
 
-**Mimmack, K.**, Gagliardi, G., Marshall, G., Vannini, P. (Submitted). A Novel Approach to Measure Awareness of Memory Decline and its Ability to Predict Clinical Progression in Cognitively Normal Older Adults.
+(2) Premnath, P., Locascio, J., **Mimmack, K.**, Gonzalez, C., Properzi, M., Udeogu, O., Rosenberg, P., Marshall, G., Gatchel, J. (2024, February). Longitudinal associations of apathy and regional tau in mild cognitive impairment and dementia: Findings from the Alzheimer's Disease Neuroimaging Initiative. *Alzheimer's & Dementia (New York, N. Y.), 10*(1), e12442. [doi.org/10.1002/trc2.12442](https://doi.org/10.1002/trc2.12442)
 
-## Presentations
+(3) Dubbelman, M., Hall, T., Levesque, I., **Mimmack, K.**, Sikkes, S., Fischer, S., Rentz, D., Sperling, R., Papp, K., Amariglio, R., Marshall, G. (2023, December). Using a digital tool to detect early changes in everyday functioning in older adults: A pilot study of the Assessment of Smartphone Everyday Tasks (ASSET). *Alzheimer's & Dementia (Amsterdam, Netherlands), 15*(4), e12506. [doi.org/10.1002/dad2.12506](https://doi.org/10.1002/dad2.12506)
 
-**Mimmack, K.**, Sprague, E., Amariglio, R., Vannini, P., Marshall, G. (2022, December; Accepted). Longitudinal Evolution of Financial Capacity and Cerebral Tau and Amyloid Burden in Cognitively Normal Older Adults, Mild Cognitive Impairment, and Alzheimer's Disease Dementia. Poster accepted for presentation at: Clinical Trials on Alzheimer's Disease Conference, San Francisco, CA
+(4) **Mimmack, K.**, Sprague, E., Amariglio, R., Vannini, P., Marshall, G. (2023, September). Longitudinal Evolution of Financial Capacity and Cerebral Tau and Amyloid Burden in Older Adults with Normal Cognition or Mild Cognitive Impairment. *The Journal of Prevention of Alzheimer’s Disease*, 1-9. [doi.org/10.14283/jpad.2023.121](https://doi.org/10.14283/jpad.2023.121). Preliminary results appeared in \[10\].
 
-**Mimmack, K.**, Gagliardi, G., Marshall, G., Vannini, P. (2022, August). A Novel Approach to Measure Awareness of Memory Decline and its Ability to Predict Clinical Progression in Cognitively Normal Older Adults. Poster presented at: The Alzheimer's Association International Conference, San Diego, CA
+(5) Dubbelman, M., **Mimmack, K.**, Sprague, E., Amariglio, R., Vannini, P., Marshall, G. (2023, July). Regional Cerebral Tau Predicts Decline in Everyday Functioning Across the Alzheimer’s Disease Spectrum. *Alzheimer’s Research & Therapy, 15*(1), 120. [doi.org/10.1186/s13195-023-01267-w](http://doi.org/10.1186/s13195-023-01267-w)
 
-**Mimmack, K.**, Towfiq, K., Bueno, M. (2017, August). Catastrophic Condition Number of Pencils Close to Whirlpool Pencils in DL(P). Poster presented at: UCSB Summer Undergraduate & Graduate Research Colloquium, Santa Barbara, CA
+(6) Gonzalez, C., **Mimmack, K.**, Amariglio, R., Becker, J., Chhatwal, J., Fitzpatrick, C., Gatchel, J., Johnson, K., Katz, Z., Kuppe, M., Locascio, J., Udeogu, O., Papp, K., Premnath, P., Properzi, M., Rentz, D., Schultz, A., Sperling, R., Vannini, P., Wang, S., Marshall, G.(2023, July). Associations of the Harvard Automated Phone Task and Alzheimer’s Disease Pathology in Cognitively Normal Older Adults: Preliminary Findings. *Journal of Alzheimer’s Disease: JAD, 94*(1), 217–226. [doi.org/10.3233/JAD-220885](http://doi.org/10.3233/JAD-220885)
+
+(7) **Mimmack, K.**, Gagliardi, G., Marshall, G., Vannini, P. (2023, April). Measurement of Dimensions of Self-Awareness of Memory Function and Their Association with Clinical Progression in Cognitively Normal Older Adults. *JAMA Network Open,* *6*(4), e239964. [doi.org/10.1001/jamanetworkopen.2023.9964](http://doi.org/10.1001/jamanetworkopen.2023.9964). Preliminary results appeared in \[11\].
+
+(8) Willey, B., **Mimmack, K.**, *et al.* (2022, March). Racial and Socioeconomic Status Differences in Stress, Posttraumatic Growth, and Mental Health in an Older Adult Cohort During the COVID-19 Pandemic. *EClinicalMedicine, 45*, 101343. [doi.org/10.1016/j.eclinm.2022.101343](https://doi.org/10.1016/j.eclinm.2022.101343)
+
+### Posters & Presentations
+
+(9) **Mimmack, K.**, Qiao, K., Gagliardi, G., Bueichekú, E., Cacciamani, F., Wang, S., Odeogu, O., Marshall, G., Sepulcre, J., Diez, I. & Vannini, P. (2023, July). Cerebral Systems Underlying Anosognosia for Memory Loss in Aging and Alzheimer’s Disease. Poster presented at: The Alzheimer’s Association International Conference, Amsterdam, Netherlands
+
+(10) **Mimmack, K.**, Sprague, E., Amariglio, R., Vannini, P., Marshall, G. (2022, December). Longitudinal Evolution of Financial Capacity and Cerebral Tau and Amyloid Burden in Cognitively Normal Older Adults, Mild Cognitive Impairment, and Alzheimer’s Disease Dementia. Poster presented at: Clinical Trials on Alzheimer’s Disease Conference, San Francisco, CA. Finalized results in \[4\].
+
+(11) **Mimmack, K.**, Gagliardi, G., Marshall, G., Vannini, P. (2022, August). A Novel Approach to Measure Awareness of Memory Decline and its Ability to Predict Clinical Progression in Cognitively Normal Older Adults. Poster presented at: The Alzheimer’s Association International Conference, San Diego, CA (Virtual). Finalized results in \[7\].
+
+(12) **Mimmack, K.**, Towfiq, K., Bueno, M. (2017, August). Catastrophic Condition Number of Pencils Close to Whirlpool Pencils in DL(P). Poster presented at: UCSB Summer Undergraduate & Graduate Research Colloquium, Santa Barbara, CA
+
+### Abstracts
+
+(13) Burling, J., **Mimmack, K.**, Gagliardi, G., Quiroz, Y., Marshall, G., Vannini, P., Gatchel, J. (2023, December). Associations Among Depression, Stress, Resilience, and Alzheimer’s Disease Biomarkers in Older Adults Following a Major Societal Stressor. *Alzheimer’s & Dementia, 19*(S18). [doi.org/10.1002/alz.074947](https://doi.org/10.1002/alz.074947)
+
+(14) Gagliardi, G., **Mimmack, K.**, Wang, S., Fawzy, M., Cacciamani, F., Munro, C., Gatchel, J., Marshall, G., Vannini, P. (2023, December). Common neurobiological mechanisms underlying anosognosia and neuropsychiatric symptoms across the Alzheimer’s disease spectrum. *Alzheimer’s & Dementia, 19*(S18). [doi.org/10.1002/alz.078379](https://doi.org/10.1002/alz.078379)
+
+(15) Gatchel, J., **Mimmack, K.**, Quiroz, Y., Munro, C., Burling, J., Johnson, K., Sperling, R., Blacker, D., Ma, G., Vannini, P., Yang, H., Hanseeuw, B., Marshall, G., Arnold, S., Chhatwal, J. (2023, December). Depressive symptoms in relation to markers of neurodegeneration, cerebrovascular injury and Alzheimer’s Disease (AD) in community‐dwelling older adults: a plasma and multimodal neuroimaging study. *Alzheimer’s & Dementia, 19*(S14). [doi.org/10.1002/alz.072578](https://doi.org/10.1002/alz.072578)
+
+(16) Udeogu, O., **Mimmack, K.**, Gagliardi, G., Burling, J., Gatchel, J., Quiroz, Y., Donovan, N., Amariglio, R., Sperling, R., Marshall, G., Vannini, P. (2023, December). Impact of Stress, Loneliness and Sociodemographic Factors on Psychological Well‐Being During the COVID‐19 Pandemic. *Alzheimer’s & Dementia, 19*(S18). [doi.org/10.1002/alz.079887](https://doi.org/10.1002/alz.079887)
+
+(17) Cacciamani, F., Gagliardi, G., **Mimmack, K.**, Qiao, K., Bueichekú, E., Marshall, G., Sepulcre, J., Diez, I., Vannini, P. (2023, December). Relationship between loss of awareness of cognitive decline and tau pathology in the Alzheimer’s disease spectrum: modulatory role of resting‐state functional connectivity. *Alzheimer’s & Dementia, 19*(S18). [doi.org/10.1002/alz.079806](https://doi.org/10.1002/alz.079806)
+
+(18) Wang, S., Gagliardi, G., **Mimmack, K.**, Cacciamani, F., Elnemais, M., Munro, C., Gatchel, J., Marshall, G., Vannini, P. (2023, December). Anosognosia is associated with increased prevalence and faster development of neuropsychiatric symptoms in Mild Cognitive Impairment. *Alzheimer’s & Dementia, 19*(S18). [doi.org/10.1002/alz.077282](https://doi.org/10.1002/alz.077282)
+
+(19) Vannini, P., Gagliardi, G., Cacciamani, F., **Mimmack, K.** (2023, December). A novel approach to measure dyadic patterns of subjective cognitive changes: its association to Alzheimer’s disease biomarkers and ability to predict clinical progression in cognitively normal older adults. *Alzheimer’s & Dementia, 19*(S18). [doi.org/10.1002/alz.075636](https://doi.org/10.1002/alz.075636)
+
+(20) Bueichekú, E., Diez, I., Gagliardi, G., Kim, C., **Mimmack, K.**, Sepulcre, J., Vannini, P. (2023, December). Multi‐modal Neuroimaging Phenotyping of Mnemonic Anosognosia in the Aging Brain. *Alzheimer’s & Dementia, 19*(S18). [doi.org/10.1002/alz.080294](https://doi.org/10.1002/alz.080294)
+
+(21) Gagliardi, G., Vannini, P., **Mimmack, K.** (2022, December). Evolution of awareness for cognitive decline across several cognitive domains in stable vs clinically progressing participants. *Alzheimer’s & Dementia, 18*(S7). [doi.org/10.1002/alz.066110](https://doi.org/10.1002/alz.066110)
+
+(22) Gatchel, J., Yang, H., **Mimmack, K.**, Arnold, S., Blacker, D., Liu, L., Selkoe, D., Johnson, K., Sperling, R., Marshall, G., Chhatwal, J. (2022, December). Plasma Biomarkers of Neurodegeneration and Tau in Relation to Longitudinal Depressive Symptoms in Older Adults: Findings from the Harvard Aging Brain Study. *Alzheimer’s & Dementia, 18*(S7). [doi.org/10.1002/alz.060979](https://doi.org/10.1002/alz.060979)
 
 ## Teaching
 
 ### Workshops
 
+-   **Checking Data Quality & Assumptions ·** [April 2023]{style="color: grey;"}\
+    For the Harvard Aging Brain Study
 -   **Intro to R Markdown ·** [November 2022]{style="color: grey;"}\
     For the Harvard Aging Brain Study
 -   **Intro to MATLAB ·** [August 2022]{style="color: grey;"}\

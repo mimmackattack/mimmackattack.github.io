@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "Kayden Mimmack"
+  title: "Kayden J. Mimmack"
   sidebar:
     style: "floating"
     search: false
-    title: "Kayden Mimmack"
+    title: "Kayden J. Mimmack"
     logo: "images/biopic.png"
-    contents: 
+    contents:
       - index.qmd
       - cv.qmd
       - projects.qmd
@@ -22,12 +22,19 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/kjmimmack/
         text: "LinkedIn Profile"
+      - icon: google
+        href: https://scholar.google.com/citations?user=yBNS6dAAAAAJ&hl=en
+        text: "Google Scholar Profile"
       - icon: twitter
         href: https://twitter.com/kjmimmack
         text: "Twitter Profile"
       - icon: envelope
         href: mailto:kjmimmack@gmail.com
         text: "E-Mail"
+  page-footer:
+    center: "Last Updated: February 17, 2024"
+    border: true
+
 
 format:
   html:
